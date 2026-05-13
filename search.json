@@ -1,10 +1,38 @@
 [
   {
+    "objectID": "pages/teaching.html",
+    "href": "pages/teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Currently, I teach introductory courses on econometrics (textbook online). Students in this sequence gain a better understanding of basic statistical concepts, familiarity with incorporating economic theory in model development and interpretation, and competency with the latest programming tools for their labor market. I have also previously developed and taught two intermediate econometrics courses for micro spatial data.\nBroadly, I advocate a more unified approach to econometrics for three main reasons. First, results are less likely to be spurious when disparate data analyses point in the same direction (the principle of consilience popularized by E. O. Wilson). Second, the exchange of ideas and results across domains is a necessary condition for specialization to be advantageous. Third, using diverse methods instead of recipes makes it easier to adhere to the notion that it is “Far better an approximate answer to the right question, which is often vague, than an exact answer to the wrong question, which can always be made precise” (J. Tukey)."
+  },
+  {
+    "objectID": "pages/teaching.html#courses-taught",
+    "href": "pages/teaching.html#courses-taught",
+    "title": "Teaching",
+    "section": "Courses taught",
+    "text": "Courses taught\n\n\n\n\n\n\n\n\n\nCourse\nLevel\nInstitution\nTerm\n\n\n\n\nBusiness and Economic Statistics II\nBA\nThompson Rivers U.\nWinter 2026, Fall 2026\n\n\nBusiness and Economic Statistics I\nBA\nThompson Rivers U.\nFall 2025/2026, Winter 2026\n\n\nMicroeconometrics\nMA\nLeipzig U.\nSummer 2021–2025\n\n\nSpatial Econometrics\nMA\nLeipzig U.\nWinter 2021–2024\n\n\nApplied Econometrics (Labs)\nBA\nLeipzig U.\nWinter 2020–2024\n\n\nIntro to Nonparametrics (two weeks)\nPhD\nC.G.D.E.–Halle\nWinter 2022, 2023\n\n\nEconometrics Seminar\nBA/MA\nLeipzig U.\nSummer 2021\n\n\nAdvanced Econometrics (Labs)\nMA\nLeipzig U.\nWinter 2020\n\n\nScientific Programming in R (Workshop)\nMA\nUtah State U.\nSpring 2020\n\n\nPrinciples of Macroeconomics\nBA\nChapman U.\nFall 2017, 2018\n\n\nPrinciples of Macroeconomics\nBA\nClemson U.\nFall 2016, Spring 2017\n\n\nComputing w/ Space-time Data (Workshop)\nMA\nClemson U.\nFall 2016\n\n\n\nItalicized rows are current or planned."
+  },
+  {
     "objectID": "pages/about.html",
     "href": "pages/about.html",
     "title": "About Me",
     "section": "",
     "text": "I am a Political-Geographical Economist. Here is a short version of how I came to this, as well as some other miscellaneous details about me.\nI was born in Edmonton, Alberta, Canada and moved to the state of Washington for college when I was 18. I discovered economics while I was at Pacific Lutheran University, and I have never looked back. Pursuing this career led me to South Carolina, California, Utah, Germany, and now British Columbia — where I am an Assistant Professor of Economics at Thompson Rivers University.\nBelow are some pictures of me over these years, alongside some colleagues, mentors, and friends that I’ve been fortunate enough to meet along the way.\n\n\n\n\n\n\nw/ P. Warren — Clemson, 2017\n\n\n\n\n\n\n\nw/ E. Kimbrough, B. Wilson, V. Smith — Chapman, 2018\n\n\n\n\n\n\n\nw/ L. Rentschler — Utah State, 2020\n\n\n\n\n\nI have many academic inspirations, but Milton Friedman (Greed) holds the proud title of being my favorite Youtube and sparking my initial excursion into economics. My research as a whole is probably most inspired by Thomas Schelling, evident in my specializations on conflict economics and spatial modeling. I am also motivated by the classics in political economy, which has led me to incorporate politics, geography, and war into my thinking — and I quote these inspirations liberally:\n\n“Commerce and manufacturers gradually introduced order and good government. And with them, the liberty and security of individuals, among the inhabitants of the country, who had before lived almost in a continual state of war with their neighbours and of servile dependency upon their superiors. This, though it has been the least observed, is by far the most important of all their effects.” — Adam Smith, The Wealth of Nations\n\nI am a methodological pluralist, meaning I try to learn from sources as varied as narrative histories to laboratory experiments. I also have a general fascination with spatial evolution and an almost religious adherence to automating my workflow (hence my github.com/Jadamso account and Linux OS). I’ve worked on, or am working on, several R packages. The biggest three are\n\nSTrollR — Space-Time standard errors for big-lattice data (Public)\nAncientR — Ancient geo-data on violence, politics, and geography (Private now, Public soon)\nSetupGameR — Laboratory experiments with R + Shiny (Private now, Public soon)\n\nIn addition to my main research questions, I am generally interested in Archeology, Anthropology, Urbanization, Game Theory, Computing, Geographic Information Systems, Spatial Statistics, Data Visualization, Epistemology, and History of Thought.\nSince graduate school, I’ve grown to enjoy writing. (Including a little poem below, which I guess is a sign I’ve read too much McCloskey if I did not make a haiku about the pigeon-hole principle as an undergraduate.) Over the last several years, I’ve also enjoyed learning about Leipzig: previously a major European city at the confluence of both the major European East–West and North–South trade routes, and making a comeback from DDR times. Now I am looking forward to exploring the Rocky Mountains with my family in Kamloops.\n\nThe Little Poem of the Applied Econometrician\n\nHave little faith in statistics sold,\nfor most that glitters is not gold.\nTheory helps when it’s done right,\nbut math alone has few insights.\nExternal forces play their part,\nbut human choice is at heart.\n\nChatGPT version (which is better?):\n\nPlace little trust in data’s gleam,\nFor not all gold reflects its beam.\nTheory shines when crafted well,\nBut numbers alone lack stories to tell.\nExternal forces play their role,\nYet human choice lies at the soul."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jordan Adamson",
+    "section": "",
+    "text": "I study conflict and trade, with a particular interest in their spatial dimensions. My main areas of expertise are"
+  },
+  {
+    "objectID": "index.html#cv",
+    "href": "index.html#cv",
+    "title": "Jordan Adamson",
+    "section": "CV",
+    "text": "CV\nDownload CV (PDF)\n\n\nYour browser does not display embedded PDFs. Click here to download the CV."
   },
   {
     "objectID": "pages/research.html",
@@ -33,33 +61,5 @@
     "title": "Research",
     "section": "Work in progress (on request)",
     "text": "Work in progress (on request)\n\n\n\n\n\n\nNoteA nonparametric investigation of war and agglomeration\n\n\n\n\n\nIs war associated with agglomeration? To find out, I develop a nonstationary spatial cross-correlation function (CCF) that captures spatial dependencies which vary across locations. Applying this method to data from Modern Europe and the Ancient Mediterranean, I uncover three general patterns: cross-correlations are globally positive, locally mixed, and weaker than the autocorrelation of population itself. The first two patterns suggest that war happens where people are, broadly, and that war near cities either pushes people inwards or results from larger cities exerting more force in their periphery. The last general pattern suggests that either war impacts urban patterns less directly than intrinsic forces or that war is strategically dispersed. By uncovering these spatial patterns, I provide new insights into the complex and underexplored dynamics between conflict and urban development."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Jordan Adamson",
-    "section": "",
-    "text": "I study conflict and trade, with a particular interest in their spatial dimensions. My main areas of expertise are"
-  },
-  {
-    "objectID": "index.html#cv",
-    "href": "index.html#cv",
-    "title": "Jordan Adamson",
-    "section": "CV",
-    "text": "CV\nDownload CV (PDF)\n\n\nYour browser does not display embedded PDFs. Click here to download the CV."
-  },
-  {
-    "objectID": "pages/teaching.html",
-    "href": "pages/teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Currently, I teach introductory courses on econometrics (textbook online). Students in this sequence gain a better understanding of basic statistical concepts, familiarity with incorporating economic theory in model development and interpretation, and competency with the latest programming tools for their labor market. I have also previously developed and taught two intermediate econometrics courses for micro spatial data.\nBroadly, I advocate a more unified approach to econometrics for three main reasons. First, results are less likely to be spurious when disparate data analyses point in the same direction (the principle of consilience popularized by E. O. Wilson). Second, the exchange of ideas and results across domains is a necessary condition for specialization to be advantageous. Third, using diverse methods instead of recipes makes it easier to adhere to the notion that it is “Far better an approximate answer to the right question, which is often vague, than an exact answer to the wrong question, which can always be made precise” (J. Tukey)."
-  },
-  {
-    "objectID": "pages/teaching.html#courses-taught",
-    "href": "pages/teaching.html#courses-taught",
-    "title": "Teaching",
-    "section": "Courses taught",
-    "text": "Courses taught\n\n\n\n\n\n\n\n\n\nCourse\nLevel\nInstitution\nTerm\n\n\n\n\nBusiness and Economic Statistics II\nBA\nThompson Rivers U.\nWinter 2026, Fall 2026\n\n\nBusiness and Economic Statistics I\nBA\nThompson Rivers U.\nFall 2025/2026, Winter 2026\n\n\nMicroeconometrics\nMA\nLeipzig U.\nSummer 2021–2025\n\n\nSpatial Econometrics\nMA\nLeipzig U.\nWinter 2021–2024\n\n\nApplied Econometrics (Labs)\nBA\nLeipzig U.\nWinter 2020–2024\n\n\nIntro to Nonparametrics (two weeks)\nPhD\nC.G.D.E.–Halle\nWinter 2022, 2023\n\n\nEconometrics Seminar\nBA/MA\nLeipzig U.\nSummer 2021\n\n\nAdvanced Econometrics (Labs)\nMA\nLeipzig U.\nWinter 2020\n\n\nScientific Programming in R (Workshop)\nMA\nUtah State U.\nSpring 2020\n\n\nPrinciples of Macroeconomics\nBA\nChapman U.\nFall 2017, 2018\n\n\nPrinciples of Macroeconomics\nBA\nClemson U.\nFall 2016, Spring 2017\n\n\nComputing w/ Space-time Data (Workshop)\nMA\nClemson U.\nFall 2016\n\n\n\nItalicized rows are current or planned."
   }
 ]
