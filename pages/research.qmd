@@ -1,0 +1,262 @@
+---
+title: "Research"
+---
+
+I research the economics of peace and prosperity, with a focus on spatial
+relationships. Methodologically, I combine observational studies, economic
+theory, and laboratory experiments.
+
+## Publications <span style="font-weight: normal;">(on [Google Scholar](https://scholar.google.com/citations?user=iS6si_YAAAAJ))</span>
+
+::: {.callout-note collapse="true" title="Trade and the rise of ancient Greek city-states"}
+2025. *Journal of Economic Behavior & Organization* 235, 107035.
+[DOI: 10.1016/j.jebo.2025.107035](https://doi.org/10.1016/j.jebo.2025.107035)
+
+I examine the role of comparative advantage in the rise of city-states.
+After compiling a new dataset on ancient Greece and the natural environment,
+I provide evidence that the spatial covariance of natural vegetation
+endowments amongst potential trading partners is important for explaining the
+development of silver coin money, battles, and city-state formation. I also
+provide statistical evidence against "key factors" previously emphasized.
+These findings are consistent with a general model of comparative advantage
+that I develop, which clarifies how the spatial covariance of factor
+endowments affects multiple development outcomes.
+:::
+
+::: {.callout-note collapse="true" title="Peace and its correlates in the ancient world"}
+2025 (w/ Patrick Fitzsimmons). *Journal of Economic Behavior & Organization* 234, 106997.
+[DOI: 10.1016/j.jebo.2025.106997](https://doi.org/10.1016/j.jebo.2025.106997)
+
+We construct and analyze a database of warfare around the Mediterranean from
+600 to 30 BCE. We provide the first in-depth statistical summary of war in
+this period, examining variation across space, time, and belligerents. Then
+we evaluate two main explanations for international peace: democracy and
+hegemony, using both statistical analyses and case study comparisons. We
+find no democratic peace among Ancient Greek city-states and mixed results,
+both inside and outside of Greece, about how war relates to state power.
+Broadly, our results challenge prominent political theories of peace and
+suggest more exploration of alternatives.
+:::
+
+::: {.callout-note collapse="true" title="How policing incentives affect crime, measurement, and justice"}
+2024 (w/ Lucas Rentschler). *Economic Inquiry* 63(2), 545–567.
+[DOI: 10.1111/ecin.13270](https://doi.org/10.1111/ecin.13270)
+
+We develop a model where the police choose between investigating and
+patrolling, while civilians choose between producing and stealing. We derive
+a truth table for the equilibrium numbers of criminals and producers,
+punished or not, that can holistically evaluate the effects of police
+performance incentives. To test the model, we conduct an experiment that
+varies how severely an officer is reprimanded for false punishments. We
+find that stronger reprimands do not change crime, increase civilian
+incomes, and decrease false positives. We also find that the clearance
+rate, a measure of performance used widely in econometric studies, suggests
+police performance is better when it is unambiguously worse.
+:::
+
+::: {.callout-note collapse="true" title="Territory in the State of Nature"}
+2024 (w/ Bart J. Wilson). *Journal of Economic Behavior & Organization* 219, 490–509.
+[DOI: 10.1016/j.jebo.2024.01.032](https://doi.org/10.1016/j.jebo.2024.01.032)
+
+We examine territorial behavior in the ecological conditions that foster
+conflict. We develop an economic model that isolates the effects of resource
+skew on territorial ranges, as well as their interactions with unequal
+appropriation abilities. We then conduct a controlled laboratory experiment
+to test the predictions of our model and find that observed behavior tends
+to cluster around the equilibrium predictions and that all comparative
+statics have the predicted sign. Additionally, we find that equally strong
+appropriators select more exclusive and less overlapping ranges than what is
+predicted with symmetric resources, while weaker appropriators choose more
+engulfed ranges than what is predicted with skewed resources.
+:::
+
+::: {.callout-note collapse="true" title="Criminal justice from a public choice perspective: an introduction to the special issue"}
+2023 (w/ Lucas Rentschler). *Public Choice* 196, 223–227.
+[DOI: 10.1007/s11127-023-01089-2](https://doi.org/10.1007/s11127-023-01089-2)
+
+In recent years, we have learned much about how police, defendants, and
+prosecutors are affected by different policies. At the same time, economic
+theory is being forgotten or disregarded. Even more so today, economists
+and political scientists treat "the enforcement apparatus of police, courts,
+prosecutors, and legislature as a philosopher-king, with imperfect knowledge
+but only the best of motives" (Friedman 2001). This special issue contains a
+sampling of papers at the intersection of criminal justice and public choice.
+Our introduction discusses the recent literature on criminal justice and
+calls for a multifaceted empirical approach that incorporates the insights
+of public choice theory.
+:::
+
+::: {.callout-note collapse="true" title="The supply side determinants of territory"}
+2022 (w/ Erik O. Kimbrough). *Journal of Peace Research* 60(2).
+[DOI: 10.1177/00223433221075006](https://doi.org/10.1177/00223433221075006)
+
+This article introduces a simple application of contest theory that neatly
+captures how Boulding's "loss of strength gradient" determines the geographic
+extent of territory. We focus on the "supply side" of territorial conflict,
+showing how the costs of initiating and escalating conflict over spatially
+dispersed resources shape the nature and scope of territory. We show that
+economies of scale in the production of violence and varying costs of
+projecting power at a distance combine to affect the intensive and extensive
+margins of conflict, and ultimately the geographic distribution of territory.
+Comparative statics analysis shows how the distribution of conflict and
+territory change as costs change, helping shed light on, for example, why
+new transportation technologies have historically led to a redrawing of
+territorial boundaries.
+:::
+
+::: {.callout-note collapse="true" title="Agglomeration and the extent of the market: theory and experiment on spatially coordinated exchange"}
+2021. *Journal of Economic Behavior & Organization* 190, 838–850.
+[DOI: 10.1016/j.jebo.2021.08.009](https://doi.org/10.1016/j.jebo.2021.08.009)
+
+Cities and marketplaces are central to economic development, but we know
+little about the mechanisms that cause such agglomerations to form. I
+theorize that evolutionary forces select for agglomerations when individuals
+desire to spatially coordinate exchange in complex environments. To test
+this idea, I perform a laboratory experiment where geographically dispersed
+individuals bring different goods to a location for trade. Consistent with
+the theory, I find that individuals spontaneously coalesce to reap the gains
+from exchange and there is more agglomeration in economies with a larger
+variety of goods. I also find that agglomerations re-emerge at the same
+locations after shocks, being land-tied reduces agglomeration but magnifies
+the effect of variety, individual location choices aggregate to create a
+Zipf population distribution, and individuals earn more in agglomerations.
+:::
+
+::: {.callout-note collapse="true" title="Political institutions, resources, and war: theory and evidence from ancient Rome"}
+2020. *Explorations in Economic History* 76, 101324.
+[DOI: 10.1016/j.eeh.2020.101324](https://doi.org/10.1016/j.eeh.2020.101324)
+
+How does a governing coalition's size affect the extent and type of violence
+in society? The model developed here predicts that larger coalitions are
+less likely to fight for private goods (e.g., plunder) than for public goods
+(e.g., defense), yet this substitution need not reduce the overall scale of
+fighting. That prediction is tested by investigating how Rome's transition
+from Republic to Empire affected military patterns. The raw data and three
+empirical tests suggest that the Republic engaged in more battles overall
+and that Republican battles had more of a public goods component. This study
+furthers our empirical knowledge about the ancient world while bringing data
+to bear on contemporary debates about the causes of peace and war.
+:::
+
+::: {.callout-note collapse="true" title="The scope of political jurisdictions and violence: theory and evidence from Africa"}
+2019. *Public Choice* 186(3), 467–490.
+[DOI: 10.1007/s11127-019-00763-8](https://doi.org/10.1007/s11127-019-00763-8)
+
+Is there more violence in areas with many small countries or only a single
+large one? I build on Bernholz (1985) to create a unifying framework where
+both internal and external contestants engage in conflict, and then
+summarize how the spatial configuration of countries affects all types of
+violence with the Herfindahl–Hirschman Index of state sizes. Empirically, I
+examine fatalities from the conflict in Africa, where I use the borders set
+by the colonial powers of Europe to identify the effect of concentration. I
+find the most fatalities in areas with many small countries, but that
+violence decreases with concentration at a decreasing rate and eventually
+increases in areas with only one large country. These findings suggest an
+important difference between the observed average effect of concentration
+on violence and the expected marginal effects of further concentration.
+:::
+
+## Working papers <span style="font-weight: normal;">(on [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3161927))</span>
+
+::: {.callout-note collapse="true" title="An econometric model of ethnic maps and evaluation of the endogenous areal unit problem"}
+[SSRN 4091833](https://ssrn.com/abstract=4091833).
+*[Revisions Requested at Oxford Bulletin of Economics and Statistics].*
+
+<!-- TODO: paste abstract here; the .bib entry currently has a copy-paste
+     error and points to the wrong abstract. -->
+:::
+
+::: {.callout-note collapse="true" title="The endogenous nature of war and its economic consequences"}
+(w/ Dan Stephenson). [SSRN 4869123](https://ssrn.com/abstract=4869123).
+*[Revisions Requested at European Economic Review].*
+
+Is war good for economic development? Several macrohistorical theories
+suggest "yes," yet the supporting evidence relies on war being an exogenous
+shock. We first examine the raw data from Europe, showing a negative
+relationship between war and production in both ancient and modern periods.
+We then create a model to investigate what typical statistical analyses
+show on data generated with standard conflict mechanisms. We show that
+typical statistical analyses suggest war positively affects growth in our
+model economy when it is in fact harmful. We caution against "mostly
+harmless" regressions that suggest European prosperity comes from its
+harmful history rather than its peaceful present.
+:::
+
+::: {.callout-note collapse="true" title="A practical public goods mechanism and policing application"}
+(w/ Lucas Rentschler). [SSRN 4804107](https://ssrn.com/abstract=4804107).
+
+We propose a modified Groves–Ledyard (1977) mechanism that estimates the
+demand for public goods using population samples and selects an
+approximately optimal quantity. We then test our mechanism in a virtual
+Phase-0 trial that mirrors existing experiments, with known utility
+functions over generic commodities, and find our mechanism performs
+extraordinarily well. Further tests in a Phase-1 experiment, where
+participants choose the quantity of police in a virtual environment, show
+that our mechanism provides quantities that are close to theoretically
+optimal. Our proposed mechanism thus performs well in laboratory
+experiments and is practical to implement and scale in the real world.
+:::
+
+::: {.callout-note collapse="true" title="A spatial economic model of war between great powers"}
+[SSRN 4957529](https://ssrn.com/abstract=4957529).
+
+I develop a model of the spatial extent and intensity of war motivated by
+new stylized facts about the major war in two different eras: the Second
+Punic War (218–201 BCE) and the Hundred Years War (1337–1453 CE). I then
+provide analytic results about how battles are generated and observed, how
+their frequency depends on distances to both bases, and the link between
+military and production uncertainty. The model generates battle maps and
+distance relationships that qualitatively match the historical observations,
+and also suggests inherent limits on the ability to predict the costs or
+locations of conflict. Still, fitting a simple version of the model to data
+provides remarkable out-of-sample performance.
+:::
+
+::: {.callout-note collapse="true" title="Homicide and economic development in England in the long run"}
+(w/ Frank Simmen). [SSRN 5100513](https://ssrn.com/abstract=5100513).
+
+We conduct a comprehensive analysis on the long-run relationship between
+homicide and economic development. We first compile the largest known
+dataset on English historical homicide rates, which allows us to document
+clear but complex relationships between homicide, wages, and GDP per
+capita. We then create a model of our stylized facts, where conflict
+reduces productivity and this in turn fuels homicide, as well as a
+state-space extension that allows us to assimilate and reconstruct
+historical homicide rates. Our model predicts better than leading
+statistical competitors and also suggests that economic explanations are
+more important than previously recognized.
+:::
+
+::: {.callout-note collapse="true" title="A unified microeconomic analysis of crime-concentration: observation, theory, and experiment"}
+(w/ Warren Anderson and Lucas Rentschler). [SSRN 5381962](https://ssrn.com/abstract=5381962).
+
+What causes crime to concentrate in a small set of locations? To answer
+this question, we employ a three-stage methodological approach that moves
+from observation to theory to experimental validation. We first revisit the
+micro details of the 1967 riots in Detroit, a major motivator for grievance
+theories prominent in sociology and psychology, and identify key empirical
+patterns in the spatial distribution of crime. Based on these observed
+patterns, we develop an economic model where civilians choose where to
+commit crimes while officers choose where to patrol, generating testable
+predictions about the conditions under which crime concentrates. Finally,
+we conduct a laboratory experiment that tests these theoretical predictions
+in a controlled environment.
+:::
+
+## Work in progress <span style="font-weight: normal;">(on request)</span>
+
+::: {.callout-note collapse="true" title="A nonparametric investigation of war and agglomeration"}
+Is war associated with agglomeration? To find out, I develop a
+nonstationary spatial cross-correlation function (CCF) that captures
+spatial dependencies which vary across locations. Applying this method to
+data from Modern Europe and the Ancient Mediterranean, I uncover three
+general patterns: cross-correlations are globally positive, locally mixed,
+and weaker than the autocorrelation of population itself. The first two
+patterns suggest that war happens where people are, broadly, and that war
+near cities either pushes people inwards or results from larger cities
+exerting more force in their periphery. The last general pattern suggests
+that either war impacts urban patterns less directly than intrinsic forces
+or that war is strategically dispersed. By uncovering these spatial
+patterns, I provide new insights into the complex and underexplored
+dynamics between conflict and urban development.
+:::

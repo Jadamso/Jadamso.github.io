@@ -1,0 +1,40 @@
+---
+title: "Teaching"
+---
+
+Currently, I teach introductory courses on econometrics
+([textbook online](https://jadamso.github.io/Rbooks/)). Students in this
+sequence gain a better understanding of basic statistical concepts,
+familiarity with incorporating economic theory in model development and
+interpretation, and competency with the latest programming tools for their
+labor market. I have also previously developed and taught two intermediate
+econometrics courses for micro spatial data.
+
+Broadly, I advocate a more unified approach to econometrics for three main
+reasons. First, results are less likely to be spurious when disparate data
+analyses point in the same direction (the principle of consilience popularized
+by E. O. Wilson). Second, the exchange of ideas and results across domains is
+a necessary condition for specialization to be advantageous. Third, using
+diverse methods instead of recipes makes it easier to adhere to the notion
+that it is "Far better an approximate answer to the right question, which is
+often vague, than an exact answer to the wrong question, which can always be
+made precise" (J. Tukey).
+
+## Courses taught
+
+| Course | Level | Institution | Term |
+|---|---|---|---|
+| *Business and Economic Statistics II* | *BA* | *Thompson Rivers U.* | *Winter 2026, Fall 2026* |
+| *Business and Economic Statistics I* | *BA* | *Thompson Rivers U.* | *Fall 2025/2026, Winter 2026* |
+| Microeconometrics | MA | Leipzig U. | Summer 2021–2025 |
+| Spatial Econometrics | MA | Leipzig U. | Winter 2021–2024 |
+| Applied Econometrics (Labs) | BA | Leipzig U. | Winter 2020–2024 |
+| Intro to Nonparametrics (two weeks) | PhD | C.G.D.E.–Halle | Winter 2022, 2023 |
+| Econometrics Seminar | BA/MA | Leipzig U. | Summer 2021 |
+| Advanced Econometrics (Labs) | MA | Leipzig U. | Winter 2020 |
+| Scientific Programming in R (Workshop) | MA | Utah State U. | Spring 2020 |
+| Principles of Macroeconomics | BA | Chapman U. | Fall 2017, 2018 |
+| Principles of Macroeconomics | BA | Clemson U. | Fall 2016, Spring 2017 |
+| Computing w/ Space-time Data (Workshop) | MA | Clemson U. | Fall 2016 |
+
+Italicized rows are current or planned.

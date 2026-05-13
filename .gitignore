@@ -1,0 +1,10 @@
+/.claude/
+/.quarto/
+/_site/
+/assets/
+/previews/
+/CLAUDE.md
+*.log
+.DS_Store
+
+**/*.quarto_ipynb
