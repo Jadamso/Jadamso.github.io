@@ -1,0 +1,28 @@
+/* Site-wide tweaks */
+.quarto-title-block .title {
+  font-weight: 600;
+}
+
+main a {
+  text-decoration: none;
+}
+main a:hover {
+  text-decoration: underline;
+}
+
+/* The Cosmo theme gives h2 a 1px border-bottom + 0.5rem padding. When an
+   h2 is followed directly by a table (whose thead has its own top rule),
+   the two render as a visible double underline. Drop the h2 rule and let
+   font weight/size carry the section hierarchy. */
+main h2,
+main .h2 {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* Bootstrap also stacks a border on both the thead element and each <th>
+   cell, which renders as a double line under the table header row.
+   Drop the per-cell one so only a single rule remains. */
+.table > thead > tr > th {
+  border-bottom: none;
+}
