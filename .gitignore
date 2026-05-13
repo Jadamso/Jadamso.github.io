@@ -1,9 +1,11 @@
 /.claude/
 /.quarto/
 /_site/
-/assets/
+/assets/*
+!/assets/styles.css
 /previews/
 /CLAUDE.md
+/ToDo.md
 *.log
 .DS_Store
 

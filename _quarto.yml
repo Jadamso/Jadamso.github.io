@@ -3,6 +3,9 @@ project:
   output-dir: _site
   resources:
     - "assets/CV_Adamson.pdf"
+  render:
+    - "*.qmd"
+    - "!ToDo.md"
 
 website:
   title: "Jordan Adamson"
