@@ -11,6 +11,8 @@ dimensions. My main areas of expertise are
 - Experimental Economic Geography
 - Observational Studies of Conflict
 - Applied Economic Theory
+
+My research combines formal theory, historical data, and laboratory experiments.
 :::
 
 ::: {.column width="5%"}
@@ -22,7 +24,9 @@ dimensions. My main areas of expertise are
 
 ::::
 
-## CV
+<p><a href="assets/CV_Adamson.pdf" class="btn btn-primary" role="button" download>
+<i class="bi bi-file-earmark-pdf"></i>&nbsp;Download CV (PDF)
+</a></p>
 
 <object data="assets/CV_Adamson.pdf#pagemode=none" type="application/pdf" width="100%" height="900px">
   <p>Your browser does not display embedded PDFs.

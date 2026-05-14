@@ -6,11 +6,11 @@ I research the economics of peace and prosperity, with a focus on spatial
 relationships. Methodologically, I combine observational studies, economic
 theory, and laboratory experiments.
 
-## Publications <span style="font-weight: normal;">(on [Google Scholar](https://scholar.google.com/citations?user=iS6si_YAAAAJ))</span>
+## Publications <a href="https://scholar.google.com/citations?user=iS6si_YAAAAJ" aria-label="View on Google Scholar"><i class="bi bi-mortarboard-fill" style="font-size: 0.7em;"></i></a>
 
-::: {.callout-tip collapse="true" icon=false title="Trade and the rise of ancient Greek city-states"}
-2025. *Journal of Economic Behavior & Organization* 235, 107035.
-[DOI: 10.1016/j.jebo.2025.107035](https://doi.org/10.1016/j.jebo.2025.107035)
+::: {.callout-tip collapse="true" icon=false title="Trade and the rise of ancient Greek city-states (2025)"}
+*Journal of Economic Behavior & Organization* 235, 107035.
+[10.1016/j.jebo.2025.107035](https://doi.org/10.1016/j.jebo.2025.107035)
 
 I examine the role of comparative advantage in the rise of city-states.
 After compiling a new dataset on ancient Greece and the natural environment,
@@ -23,9 +23,9 @@ that I develop, which clarifies how the spatial covariance of factor
 endowments affects multiple development outcomes.
 :::
 
-::: {.callout-tip collapse="true" icon=false title="Peace and its correlates in the ancient world"}
-2025 (w/ Patrick Fitzsimmons). *Journal of Economic Behavior & Organization* 234, 106997.
-[DOI: 10.1016/j.jebo.2025.106997](https://doi.org/10.1016/j.jebo.2025.106997)
+::: {.callout-tip collapse="true" icon=false title="Peace and its correlates in the ancient world (2025)"}
+w/ Patrick Fitzsimmons. *Journal of Economic Behavior & Organization* 234, 106997.
+[10.1016/j.jebo.2025.106997](https://doi.org/10.1016/j.jebo.2025.106997)
 
 We construct and analyze a database of warfare around the Mediterranean from
 600 to 30 BCE. We provide the first in-depth statistical summary of war in
@@ -38,9 +38,9 @@ Broadly, our results challenge prominent political theories of peace and
 suggest more exploration of alternatives.
 :::
 
-::: {.callout-tip collapse="true" icon=false title="How policing incentives affect crime, measurement, and justice"}
-2024 (w/ Lucas Rentschler). *Economic Inquiry* 63(2), 545–567.
-[DOI: 10.1111/ecin.13270](https://doi.org/10.1111/ecin.13270)
+::: {.callout-tip collapse="true" icon=false title="How policing incentives affect crime, measurement, and justice (2024)"}
+w/ Lucas Rentschler. *Economic Inquiry* 63(2), 545–567.
+[10.1111/ecin.13270](https://doi.org/10.1111/ecin.13270)
 
 We develop a model where the police choose between investigating and
 patrolling, while civilians choose between producing and stealing. We derive
@@ -54,9 +54,9 @@ rate, a measure of performance used widely in econometric studies, suggests
 police performance is better when it is unambiguously worse.
 :::
 
-::: {.callout-tip collapse="true" icon=false title="Territory in the State of Nature"}
-2024 (w/ Bart J. Wilson). *Journal of Economic Behavior & Organization* 219, 490–509.
-[DOI: 10.1016/j.jebo.2024.01.032](https://doi.org/10.1016/j.jebo.2024.01.032)
+::: {.callout-tip collapse="true" icon=false title="Territory in the State of Nature (2024)"}
+w/ Bart J. Wilson. *Journal of Economic Behavior & Organization* 219, 490–509.
+[10.1016/j.jebo.2024.01.032](https://doi.org/10.1016/j.jebo.2024.01.032)
 
 We examine territorial behavior in the ecological conditions that foster
 conflict. We develop an economic model that isolates the effects of resource
@@ -70,9 +70,9 @@ predicted with symmetric resources, while weaker appropriators choose more
 engulfed ranges than what is predicted with skewed resources.
 :::
 
-::: {.callout-tip collapse="true" icon=false title="Criminal justice from a public choice perspective: an introduction to the special issue"}
-2023 (w/ Lucas Rentschler). *Public Choice* 196, 223–227.
-[DOI: 10.1007/s11127-023-01089-2](https://doi.org/10.1007/s11127-023-01089-2)
+::: {.callout-tip collapse="true" icon=false title="Criminal justice from a public choice perspective: an introduction to the special issue (2023)"}
+w/ Lucas Rentschler. *Public Choice* 196, 223–227.
+[10.1007/s11127-023-01089-2](https://doi.org/10.1007/s11127-023-01089-2)
 
 In recent years, we have learned much about how police, defendants, and
 prosecutors are affected by different policies. At the same time, economic
@@ -86,9 +86,9 @@ calls for a multifaceted empirical approach that incorporates the insights
 of public choice theory.
 :::
 
-::: {.callout-tip collapse="true" icon=false title="The supply side determinants of territory"}
-2022 (w/ Erik O. Kimbrough). *Journal of Peace Research* 60(2).
-[DOI: 10.1177/00223433221075006](https://doi.org/10.1177/00223433221075006)
+::: {.callout-tip collapse="true" icon=false title="The supply side determinants of territory (2022)"}
+w/ Erik O. Kimbrough. *Journal of Peace Research* 60(2).
+[10.1177/00223433221075006](https://doi.org/10.1177/00223433221075006)
 
 This article introduces a simple application of contest theory that neatly
 captures how Boulding's "loss of strength gradient" determines the geographic
@@ -104,9 +104,9 @@ new transportation technologies have historically led to a redrawing of
 territorial boundaries.
 :::
 
-::: {.callout-tip collapse="true" icon=false title="Agglomeration and the extent of the market: theory and experiment on spatially coordinated exchange"}
-2021. *Journal of Economic Behavior & Organization* 190, 838–850.
-[DOI: 10.1016/j.jebo.2021.08.009](https://doi.org/10.1016/j.jebo.2021.08.009)
+::: {.callout-tip collapse="true" icon=false title="Agglomeration and the extent of the market: theory and experiment on spatially coordinated exchange (2021)"}
+*Journal of Economic Behavior & Organization* 190, 838–850.
+[10.1016/j.jebo.2021.08.009](https://doi.org/10.1016/j.jebo.2021.08.009)
 
 Cities and marketplaces are central to economic development, but we know
 little about the mechanisms that cause such agglomerations to form. I
@@ -122,9 +122,9 @@ the effect of variety, individual location choices aggregate to create a
 Zipf population distribution, and individuals earn more in agglomerations.
 :::
 
-::: {.callout-tip collapse="true" icon=false title="Political institutions, resources, and war: theory and evidence from ancient Rome"}
-2020. *Explorations in Economic History* 76, 101324.
-[DOI: 10.1016/j.eeh.2020.101324](https://doi.org/10.1016/j.eeh.2020.101324)
+::: {.callout-tip collapse="true" icon=false title="Political institutions, resources, and war: theory and evidence from ancient Rome (2020)"}
+*Explorations in Economic History* 76, 101324.
+[10.1016/j.eeh.2020.101324](https://doi.org/10.1016/j.eeh.2020.101324)
 
 How does a governing coalition's size affect the extent and type of violence
 in society? The model developed here predicts that larger coalitions are
@@ -138,9 +138,9 @@ furthers our empirical knowledge about the ancient world while bringing data
 to bear on contemporary debates about the causes of peace and war.
 :::
 
-::: {.callout-tip collapse="true" icon=false title="The scope of political jurisdictions and violence: theory and evidence from Africa"}
-2019. *Public Choice* 186(3), 467–490.
-[DOI: 10.1007/s11127-019-00763-8](https://doi.org/10.1007/s11127-019-00763-8)
+::: {.callout-tip collapse="true" icon=false title="The scope of political jurisdictions and violence: theory and evidence from Africa (2019)"}
+*Public Choice* 186(3), 467–490.
+[10.1007/s11127-019-00763-8](https://doi.org/10.1007/s11127-019-00763-8)
 
 Is there more violence in areas with many small countries or only a single
 large one? I build on Bernholz (1985) to create a unifying framework where
@@ -156,7 +156,7 @@ important difference between the observed average effect of concentration
 on violence and the expected marginal effects of further concentration.
 :::
 
-## Working papers <span style="font-weight: normal;">(on [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3161927))</span>
+## Working papers <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3161927" aria-label="View on SSRN"><i class="bi bi-file-earmark-text" style="font-size: 0.7em;"></i></a>
 
 ::: {.callout-note collapse="true" icon=false title="An econometric model of ethnic maps and evaluation of the endogenous areal unit problem"}
 [SSRN 4091833](https://ssrn.com/abstract=4091833).
@@ -167,7 +167,7 @@ on violence and the expected marginal effects of further concentration.
 :::
 
 ::: {.callout-note collapse="true" icon=false title="The endogenous nature of war and its economic consequences"}
-(w/ Dan Stephenson). [SSRN 4869123](https://ssrn.com/abstract=4869123).
+w/ Dan Stephenson. [SSRN 4869123](https://ssrn.com/abstract=4869123).
 *[Revisions Requested at European Economic Review].*
 
 Is war good for economic development? Several macrohistorical theories
@@ -183,7 +183,7 @@ harmful history rather than its peaceful present.
 :::
 
 ::: {.callout-note collapse="true" icon=false title="A practical public goods mechanism and policing application"}
-(w/ Lucas Rentschler). [SSRN 4804107](https://ssrn.com/abstract=4804107).
+w/ Lucas Rentschler. [SSRN 4804107](https://ssrn.com/abstract=4804107).
 
 We propose a modified Groves–Ledyard (1977) mechanism that estimates the
 demand for public goods using population samples and selects an
@@ -213,7 +213,7 @@ provides remarkable out-of-sample performance.
 :::
 
 ::: {.callout-note collapse="true" icon=false title="Homicide and economic development in England in the long run"}
-(w/ Frank Simmen). [SSRN 5100513](https://ssrn.com/abstract=5100513).
+w/ Frank Simmen. [SSRN 5100513](https://ssrn.com/abstract=5100513).
 
 We conduct a comprehensive analysis on the long-run relationship between
 homicide and economic development. We first compile the largest known
@@ -228,7 +228,7 @@ more important than previously recognized.
 :::
 
 ::: {.callout-note collapse="true" icon=false title="A unified microeconomic analysis of crime-concentration: observation, theory, and experiment"}
-(w/ Warren Anderson and Lucas Rentschler). [SSRN 5381962](https://ssrn.com/abstract=5381962).
+w/ Warren Anderson and Lucas Rentschler. [SSRN 5381962](https://ssrn.com/abstract=5381962).
 
 What causes crime to concentrate in a small set of locations? To answer
 this question, we employ a three-stage methodological approach that moves
@@ -243,7 +243,7 @@ we conduct a laboratory experiment that tests these theoretical predictions
 in a controlled environment.
 :::
 
-## Work in progress <span style="font-weight: normal;">(on request)</span>
+## Work in progress <a href="mailto:jadamson@tru.ca?subject=Work%20in%20progress" aria-label="Request copies by email"><i class="bi bi-envelope" style="font-size: 0.7em;"></i></a>
 
 ::: {.callout-note collapse="true" icon=false title="A nonparametric investigation of war and agglomeration"}
 Is war associated with agglomeration? To find out, I develop a

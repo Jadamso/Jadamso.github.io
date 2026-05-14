@@ -9,9 +9,12 @@ project:
 
 website:
   title: "Jordan Adamson"
+  description: "Assistant Professor of Economics at Thompson Rivers University. I research conflict and trade, with a particular interest in their spatial dimensions."
+  image: assets/images/2025_virginiatech.jpg
   site-url: https://jadamso.github.io
   repo-url: https://github.com/Jadamso/Jadamso.github.io
   repo-branch: main
+  open-graph: true
   navbar:
     left:
       - text: "Home"
@@ -43,6 +46,9 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: cosmo
+      dark: darkly
     css: assets/styles.css
     toc: false
+    title-block-style: none
