@@ -62,6 +62,7 @@ European city at the confluence of both the major European East–West and
 North–South trade routes, and making a comeback from DDR times. Now I am
 looking forward to exploring the Rocky Mountains with my family in Kamloops.
 
+<!--
 ### The Little Poem of the Applied Econometrician
 
 > Have little faith in statistics sold,\
@@ -79,3 +80,4 @@ ChatGPT version (which is better?):
 > But numbers alone lack stories to tell.\
 > External forces play their role,\
 > Yet human choice lies at the soul.
+-->

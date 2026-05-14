@@ -23,12 +23,20 @@ website:
       - text: "About Me"
         href: pages/about.qmd
     right:
-      - icon: github
-        href: https://github.com/Jadamso
-        aria-label: GitHub
+      - icon: envelope
+        href: mailto:jadamson@tru.ca
+        aria-label: Email
       - icon: mortarboard-fill
         href: https://scholar.google.com/citations?user=iS6si_YAAAAJ
         aria-label: Google Scholar
+      - icon: file-earmark-text
+        href: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3161927
+        aria-label: SSRN
+      - icon: github
+        href: https://github.com/Jadamso
+        aria-label: GitHub
+      - text: ORCID
+        href: https://orcid.org/0000-0003-3916-6211
   page-footer:
     left: "Jordan Adamson"
     right: "Built with [Quarto](https://quarto.org)"
