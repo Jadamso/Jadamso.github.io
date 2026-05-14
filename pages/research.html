@@ -39,10 +39,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f1567f6532da11e0b3c9d7d9c23d1e21.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-06b56d471ffbf29346837eae66dc9952.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-f1567f6532da11e0b3c9d7d9c23d1e21.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,9 +77,175 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../assets/styles.css">
+<meta property="og:title" content="Research – Jordan Adamson">
+<meta property="og:description" content="Assistant Professor of Economics at Thompson Rivers University. I research conflict and trade, with a particular interest in their spatial dimensions.">
+<meta property="og:image" content="https://jadamso.github.io/pages/assets/images/2025_virginiatech.jpg">
+<meta property="og:site_name" content="Jordan Adamson">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -137,6 +307,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -147,194 +318,174 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Research</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Research</h1></header>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
+<header id="title-block-header">
 
 
 </header>
 
 
 <p>I research the economics of peace and prosperity, with a focus on spatial relationships. Methodologically, I combine observational studies, economic theory, and laboratory experiments.</p>
-<section id="publications-on-google-scholar" class="level2">
-<h2 class="anchored" data-anchor-id="publications-on-google-scholar">Publications <span style="font-weight: normal;">(on <a href="https://scholar.google.com/citations?user=iS6si_YAAAAJ">Google Scholar</a>)</span></h2>
-<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Trade and the rise of ancient Greek city-states">
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">Publications <a href="https://scholar.google.com/citations?user=iS6si_YAAAAJ" aria-label="View on Google Scholar"><i class="bi bi-mortarboard-fill" style="font-size: 0.7em;"></i></a></h2>
+<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Trade and the rise of ancient Greek city-states (2025)">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Trade and the rise of ancient Greek city-states
+<span class="screen-reader-only">Tip</span>Trade and the rise of ancient Greek city-states (2025)
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<ol start="2025" type="1">
-<li><em>Journal of Economic Behavior &amp; Organization</em> 235, 107035. <a href="https://doi.org/10.1016/j.jebo.2025.107035">DOI: 10.1016/j.jebo.2025.107035</a></li>
-</ol>
+<p><em>Journal of Economic Behavior &amp; Organization</em> 235, 107035. <a href="https://doi.org/10.1016/j.jebo.2025.107035">10.1016/j.jebo.2025.107035</a></p>
 <p>I examine the role of comparative advantage in the rise of city-states. After compiling a new dataset on ancient Greece and the natural environment, I provide evidence that the spatial covariance of natural vegetation endowments amongst potential trading partners is important for explaining the development of silver coin money, battles, and city-state formation. I also provide statistical evidence against “key factors” previously emphasized. These findings are consistent with a general model of comparative advantage that I develop, which clarifies how the spatial covariance of factor endowments affects multiple development outcomes.</p>
 </div>
 </div>
 </div>
-<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Peace and its correlates in the ancient world">
+<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Peace and its correlates in the ancient world (2025)">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Peace and its correlates in the ancient world
+<span class="screen-reader-only">Tip</span>Peace and its correlates in the ancient world (2025)
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>2025 (w/ Patrick Fitzsimmons). <em>Journal of Economic Behavior &amp; Organization</em> 234, 106997. <a href="https://doi.org/10.1016/j.jebo.2025.106997">DOI: 10.1016/j.jebo.2025.106997</a></p>
+<p>w/ Patrick Fitzsimmons. <em>Journal of Economic Behavior &amp; Organization</em> 234, 106997. <a href="https://doi.org/10.1016/j.jebo.2025.106997">10.1016/j.jebo.2025.106997</a></p>
 <p>We construct and analyze a database of warfare around the Mediterranean from 600 to 30 BCE. We provide the first in-depth statistical summary of war in this period, examining variation across space, time, and belligerents. Then we evaluate two main explanations for international peace: democracy and hegemony, using both statistical analyses and case study comparisons. We find no democratic peace among Ancient Greek city-states and mixed results, both inside and outside of Greece, about how war relates to state power. Broadly, our results challenge prominent political theories of peace and suggest more exploration of alternatives.</p>
 </div>
 </div>
 </div>
-<div class="callout callout-style-default callout-tip no-icon callout-titled" title="How policing incentives affect crime, measurement, and justice">
+<div class="callout callout-style-default callout-tip no-icon callout-titled" title="How policing incentives affect crime, measurement, and justice (2024)">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>How policing incentives affect crime, measurement, and justice
+<span class="screen-reader-only">Tip</span>How policing incentives affect crime, measurement, and justice (2024)
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>2024 (w/ Lucas Rentschler). <em>Economic Inquiry</em> 63(2), 545–567. <a href="https://doi.org/10.1111/ecin.13270">DOI: 10.1111/ecin.13270</a></p>
+<p>w/ Lucas Rentschler. <em>Economic Inquiry</em> 63(2), 545–567. <a href="https://doi.org/10.1111/ecin.13270">10.1111/ecin.13270</a></p>
 <p>We develop a model where the police choose between investigating and patrolling, while civilians choose between producing and stealing. We derive a truth table for the equilibrium numbers of criminals and producers, punished or not, that can holistically evaluate the effects of police performance incentives. To test the model, we conduct an experiment that varies how severely an officer is reprimanded for false punishments. We find that stronger reprimands do not change crime, increase civilian incomes, and decrease false positives. We also find that the clearance rate, a measure of performance used widely in econometric studies, suggests police performance is better when it is unambiguously worse.</p>
 </div>
 </div>
 </div>
-<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Territory in the State of Nature">
+<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Territory in the State of Nature (2024)">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Territory in the State of Nature
+<span class="screen-reader-only">Tip</span>Territory in the State of Nature (2024)
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>2024 (w/ Bart J. Wilson). <em>Journal of Economic Behavior &amp; Organization</em> 219, 490–509. <a href="https://doi.org/10.1016/j.jebo.2024.01.032">DOI: 10.1016/j.jebo.2024.01.032</a></p>
+<p>w/ Bart J. Wilson. <em>Journal of Economic Behavior &amp; Organization</em> 219, 490–509. <a href="https://doi.org/10.1016/j.jebo.2024.01.032">10.1016/j.jebo.2024.01.032</a></p>
 <p>We examine territorial behavior in the ecological conditions that foster conflict. We develop an economic model that isolates the effects of resource skew on territorial ranges, as well as their interactions with unequal appropriation abilities. We then conduct a controlled laboratory experiment to test the predictions of our model and find that observed behavior tends to cluster around the equilibrium predictions and that all comparative statics have the predicted sign. Additionally, we find that equally strong appropriators select more exclusive and less overlapping ranges than what is predicted with symmetric resources, while weaker appropriators choose more engulfed ranges than what is predicted with skewed resources.</p>
 </div>
 </div>
 </div>
-<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Criminal justice from a public choice perspective: an introduction to the special issue">
+<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Criminal justice from a public choice perspective: an introduction to the special issue (2023)">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Criminal justice from a public choice perspective: an introduction to the special issue
+<span class="screen-reader-only">Tip</span>Criminal justice from a public choice perspective: an introduction to the special issue (2023)
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>2023 (w/ Lucas Rentschler). <em>Public Choice</em> 196, 223–227. <a href="https://doi.org/10.1007/s11127-023-01089-2">DOI: 10.1007/s11127-023-01089-2</a></p>
+<p>w/ Lucas Rentschler. <em>Public Choice</em> 196, 223–227. <a href="https://doi.org/10.1007/s11127-023-01089-2">10.1007/s11127-023-01089-2</a></p>
 <p>In recent years, we have learned much about how police, defendants, and prosecutors are affected by different policies. At the same time, economic theory is being forgotten or disregarded. Even more so today, economists and political scientists treat “the enforcement apparatus of police, courts, prosecutors, and legislature as a philosopher-king, with imperfect knowledge but only the best of motives” (Friedman 2001). This special issue contains a sampling of papers at the intersection of criminal justice and public choice. Our introduction discusses the recent literature on criminal justice and calls for a multifaceted empirical approach that incorporates the insights of public choice theory.</p>
 </div>
 </div>
 </div>
-<div class="callout callout-style-default callout-tip no-icon callout-titled" title="The supply side determinants of territory">
+<div class="callout callout-style-default callout-tip no-icon callout-titled" title="The supply side determinants of territory (2022)">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>The supply side determinants of territory
+<span class="screen-reader-only">Tip</span>The supply side determinants of territory (2022)
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>2022 (w/ Erik O. Kimbrough). <em>Journal of Peace Research</em> 60(2). <a href="https://doi.org/10.1177/00223433221075006">DOI: 10.1177/00223433221075006</a></p>
+<p>w/ Erik O. Kimbrough. <em>Journal of Peace Research</em> 60(2). <a href="https://doi.org/10.1177/00223433221075006">10.1177/00223433221075006</a></p>
 <p>This article introduces a simple application of contest theory that neatly captures how Boulding’s “loss of strength gradient” determines the geographic extent of territory. We focus on the “supply side” of territorial conflict, showing how the costs of initiating and escalating conflict over spatially dispersed resources shape the nature and scope of territory. We show that economies of scale in the production of violence and varying costs of projecting power at a distance combine to affect the intensive and extensive margins of conflict, and ultimately the geographic distribution of territory. Comparative statics analysis shows how the distribution of conflict and territory change as costs change, helping shed light on, for example, why new transportation technologies have historically led to a redrawing of territorial boundaries.</p>
 </div>
 </div>
 </div>
-<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Agglomeration and the extent of the market: theory and experiment on spatially coordinated exchange">
+<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Agglomeration and the extent of the market: theory and experiment on spatially coordinated exchange (2021)">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Agglomeration and the extent of the market: theory and experiment on spatially coordinated exchange
+<span class="screen-reader-only">Tip</span>Agglomeration and the extent of the market: theory and experiment on spatially coordinated exchange (2021)
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<ol start="2021" type="1">
-<li><em>Journal of Economic Behavior &amp; Organization</em> 190, 838–850. <a href="https://doi.org/10.1016/j.jebo.2021.08.009">DOI: 10.1016/j.jebo.2021.08.009</a></li>
-</ol>
+<p><em>Journal of Economic Behavior &amp; Organization</em> 190, 838–850. <a href="https://doi.org/10.1016/j.jebo.2021.08.009">10.1016/j.jebo.2021.08.009</a></p>
 <p>Cities and marketplaces are central to economic development, but we know little about the mechanisms that cause such agglomerations to form. I theorize that evolutionary forces select for agglomerations when individuals desire to spatially coordinate exchange in complex environments. To test this idea, I perform a laboratory experiment where geographically dispersed individuals bring different goods to a location for trade. Consistent with the theory, I find that individuals spontaneously coalesce to reap the gains from exchange and there is more agglomeration in economies with a larger variety of goods. I also find that agglomerations re-emerge at the same locations after shocks, being land-tied reduces agglomeration but magnifies the effect of variety, individual location choices aggregate to create a Zipf population distribution, and individuals earn more in agglomerations.</p>
 </div>
 </div>
 </div>
-<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Political institutions, resources, and war: theory and evidence from ancient Rome">
+<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Political institutions, resources, and war: theory and evidence from ancient Rome (2020)">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Political institutions, resources, and war: theory and evidence from ancient Rome
+<span class="screen-reader-only">Tip</span>Political institutions, resources, and war: theory and evidence from ancient Rome (2020)
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<ol start="2020" type="1">
-<li><em>Explorations in Economic History</em> 76, 101324. <a href="https://doi.org/10.1016/j.eeh.2020.101324">DOI: 10.1016/j.eeh.2020.101324</a></li>
-</ol>
+<p><em>Explorations in Economic History</em> 76, 101324. <a href="https://doi.org/10.1016/j.eeh.2020.101324">10.1016/j.eeh.2020.101324</a></p>
 <p>How does a governing coalition’s size affect the extent and type of violence in society? The model developed here predicts that larger coalitions are less likely to fight for private goods (e.g., plunder) than for public goods (e.g., defense), yet this substitution need not reduce the overall scale of fighting. That prediction is tested by investigating how Rome’s transition from Republic to Empire affected military patterns. The raw data and three empirical tests suggest that the Republic engaged in more battles overall and that Republican battles had more of a public goods component. This study furthers our empirical knowledge about the ancient world while bringing data to bear on contemporary debates about the causes of peace and war.</p>
 </div>
 </div>
 </div>
-<div class="callout callout-style-default callout-tip no-icon callout-titled" title="The scope of political jurisdictions and violence: theory and evidence from Africa">
+<div class="callout callout-style-default callout-tip no-icon callout-titled" title="The scope of political jurisdictions and violence: theory and evidence from Africa (2019)">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>The scope of political jurisdictions and violence: theory and evidence from Africa
+<span class="screen-reader-only">Tip</span>The scope of political jurisdictions and violence: theory and evidence from Africa (2019)
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-9" class="callout-9-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<ol start="2019" type="1">
-<li><em>Public Choice</em> 186(3), 467–490. <a href="https://doi.org/10.1007/s11127-019-00763-8">DOI: 10.1007/s11127-019-00763-8</a></li>
-</ol>
+<p><em>Public Choice</em> 186(3), 467–490. <a href="https://doi.org/10.1007/s11127-019-00763-8">10.1007/s11127-019-00763-8</a></p>
 <p>Is there more violence in areas with many small countries or only a single large one? I build on Bernholz (1985) to create a unifying framework where both internal and external contestants engage in conflict, and then summarize how the spatial configuration of countries affects all types of violence with the Herfindahl–Hirschman Index of state sizes. Empirically, I examine fatalities from the conflict in Africa, where I use the borders set by the colonial powers of Europe to identify the effect of concentration. I find the most fatalities in areas with many small countries, but that violence decreases with concentration at a decreasing rate and eventually increases in areas with only one large country. These findings suggest an important difference between the observed average effect of concentration on violence and the expected marginal effects of further concentration.</p>
 </div>
 </div>
 </div>
 </section>
-<section id="working-papers-on-ssrn" class="level2">
-<h2 class="anchored" data-anchor-id="working-papers-on-ssrn">Working papers <span style="font-weight: normal;">(on <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3161927">SSRN</a>)</span></h2>
+<section id="working-papers" class="level2">
+<h2 class="anchored" data-anchor-id="working-papers">Working papers <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3161927" aria-label="View on SSRN"><i class="bi bi-file-earmark-text" style="font-size: 0.7em;"></i></a></h2>
 <div class="callout callout-style-default callout-note no-icon callout-titled" title="An econometric model of ethnic maps and evaluation of the endogenous areal unit problem">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -365,7 +516,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="callout-11" class="callout-11-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>(w/ Dan Stephenson). <a href="https://ssrn.com/abstract=4869123">SSRN 4869123</a>. <em>[Revisions Requested at European Economic Review].</em></p>
+<p>w/ Dan Stephenson. <a href="https://ssrn.com/abstract=4869123">SSRN 4869123</a>. <em>[Revisions Requested at European Economic Review].</em></p>
 <p>Is war good for economic development? Several macrohistorical theories suggest “yes,” yet the supporting evidence relies on war being an exogenous shock. We first examine the raw data from Europe, showing a negative relationship between war and production in both ancient and modern periods. We then create a model to investigate what typical statistical analyses show on data generated with standard conflict mechanisms. We show that typical statistical analyses suggest war positively affects growth in our model economy when it is in fact harmful. We caution against “mostly harmless” regressions that suggest European prosperity comes from its harmful history rather than its peaceful present.</p>
 </div>
 </div>
@@ -382,7 +533,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="callout-12" class="callout-12-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>(w/ Lucas Rentschler). <a href="https://ssrn.com/abstract=4804107">SSRN 4804107</a>.</p>
+<p>w/ Lucas Rentschler. <a href="https://ssrn.com/abstract=4804107">SSRN 4804107</a>.</p>
 <p>We propose a modified Groves–Ledyard (1977) mechanism that estimates the demand for public goods using population samples and selects an approximately optimal quantity. We then test our mechanism in a virtual Phase-0 trial that mirrors existing experiments, with known utility functions over generic commodities, and find our mechanism performs extraordinarily well. Further tests in a Phase-1 experiment, where participants choose the quantity of police in a virtual environment, show that our mechanism provides quantities that are close to theoretically optimal. Our proposed mechanism thus performs well in laboratory experiments and is practical to implement and scale in the real world.</p>
 </div>
 </div>
@@ -416,7 +567,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="callout-14" class="callout-14-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>(w/ Frank Simmen). <a href="https://ssrn.com/abstract=5100513">SSRN 5100513</a>.</p>
+<p>w/ Frank Simmen. <a href="https://ssrn.com/abstract=5100513">SSRN 5100513</a>.</p>
 <p>We conduct a comprehensive analysis on the long-run relationship between homicide and economic development. We first compile the largest known dataset on English historical homicide rates, which allows us to document clear but complex relationships between homicide, wages, and GDP per capita. We then create a model of our stylized facts, where conflict reduces productivity and this in turn fuels homicide, as well as a state-space extension that allows us to assimilate and reconstruct historical homicide rates. Our model predicts better than leading statistical competitors and also suggests that economic explanations are more important than previously recognized.</p>
 </div>
 </div>
@@ -433,14 +584,14 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="callout-15" class="callout-15-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>(w/ Warren Anderson and Lucas Rentschler). <a href="https://ssrn.com/abstract=5381962">SSRN 5381962</a>.</p>
+<p>w/ Warren Anderson and Lucas Rentschler. <a href="https://ssrn.com/abstract=5381962">SSRN 5381962</a>.</p>
 <p>What causes crime to concentrate in a small set of locations? To answer this question, we employ a three-stage methodological approach that moves from observation to theory to experimental validation. We first revisit the micro details of the 1967 riots in Detroit, a major motivator for grievance theories prominent in sociology and psychology, and identify key empirical patterns in the spatial distribution of crime. Based on these observed patterns, we develop an economic model where civilians choose where to commit crimes while officers choose where to patrol, generating testable predictions about the conditions under which crime concentrates. Finally, we conduct a laboratory experiment that tests these theoretical predictions in a controlled environment.</p>
 </div>
 </div>
 </div>
 </section>
-<section id="work-in-progress-on-request" class="level2">
-<h2 class="anchored" data-anchor-id="work-in-progress-on-request">Work in progress <span style="font-weight: normal;">(on request)</span></h2>
+<section id="work-in-progress" class="level2">
+<h2 class="anchored" data-anchor-id="work-in-progress">Work in progress <a href="mailto:jadamson@tru.ca?subject=Work%20in%20progress" aria-label="Request copies by email"><i class="bi bi-envelope" style="font-size: 0.7em;"></i></a></h2>
 <div class="callout callout-style-default callout-note no-icon callout-titled" title="A nonparametric investigation of war and agglomeration">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -464,6 +615,19 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {

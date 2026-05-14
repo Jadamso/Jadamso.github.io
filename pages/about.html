@@ -39,10 +39,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f1567f6532da11e0b3c9d7d9c23d1e21.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-06b56d471ffbf29346837eae66dc9952.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-f1567f6532da11e0b3c9d7d9c23d1e21.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,9 +77,175 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../assets/styles.css">
+<meta property="og:title" content="About Me – Jordan Adamson">
+<meta property="og:description" content="Assistant Professor of Economics at Thompson Rivers University. I research conflict and trade, with a particular interest in their spatial dimensions.">
+<meta property="og:image" content="https://jadamso.github.io/assets/images/2017_clemson_warren.jpg">
+<meta property="og:site_name" content="Jordan Adamson">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -137,6 +307,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -147,29 +318,17 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About Me</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">About Me</h1></header>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
+<header id="title-block-header">
 
 
 </header>
 
 
 <p>I am a Political-Geographical Economist. Here is a short version of how I came to this, as well as some other miscellaneous details about me.</p>
-<p>I was born in Edmonton, Alberta, Canada and moved to the state of Washington for college when I was 18. I discovered economics while I was at Pacific Lutheran University, and I have never looked back. Pursuing this career led me to South Carolina, California, Utah, Germany, and now British Columbia — where I am an Assistant Professor of Economics at Thompson Rivers University.</p>
+<p>I was born in Edmonton, Alberta, Canada and moved to the state of Washington for college when I was 18. I discovered economics while I was at Pacific Lutheran University, and I have never looked back. Pursuing this career led me to South Carolina, California, Utah, Germany, and now British Columbia, where I am an Assistant Professor of Economics at Thompson Rivers University.</p>
 <p>Below are some pictures of me over these years, alongside some colleagues, mentors, and friends that I’ve been fortunate enough to meet along the way.</p>
 <div class="quarto-layout-panel" data-layout-ncol="3">
 <div class="quarto-layout-row">
@@ -177,7 +336,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../assets/images/2017_clemson_warren.jpg" class="img-fluid figure-img"></p>
-<figcaption>w/ P. Warren — Clemson, 2017</figcaption>
+<figcaption>w/ P. Warren, Clemson 2017</figcaption>
 </figure>
 </div>
 </div>
@@ -185,7 +344,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../assets/images/2018_chapman_kimbrough_wilson_smith.jpg" class="img-fluid figure-img"></p>
-<figcaption>w/ E. Kimbrough, B. Wilson, V. Smith — Chapman, 2018</figcaption>
+<figcaption>w/ E. Kimbrough, B. Wilson, V. Smith, Chapman 2018</figcaption>
 </figure>
 </div>
 </div>
@@ -193,24 +352,33 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../assets/images/2020_utahstate_rentschler.jpg" class="img-fluid figure-img"></p>
-<figcaption>w/ L. Rentschler — Utah State, 2020</figcaption>
+<figcaption>w/ L. Rentschler, Utah State 2020</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<p>I have many academic inspirations, but Milton Friedman (<a href="https://www.youtube.com/watch?v=RWsx1X8PV_A">Greed</a>) holds the proud title of being my favorite Youtube and sparking my initial excursion into economics. My research as a whole is probably most inspired by Thomas Schelling, evident in my specializations on conflict economics and spatial modeling. I am also motivated by the classics in political economy, which has led me to incorporate politics, geography, and war into my thinking — and I quote these inspirations liberally:</p>
+<p>I have many academic inspirations, but Milton Friedman (<a href="https://www.youtube.com/watch?v=RWsx1X8PV_A">Greed</a>) holds the proud title of being my favorite Youtube and sparking my initial excursion into economics. My research as a whole is probably most inspired by Thomas Schelling, evident in my specializations on conflict economics and spatial modeling. I am also motivated by the classics in political economy, which has led me to incorporate politics, geography, and war into my thinking, and I quote these inspirations liberally:</p>
 <blockquote class="blockquote">
-<p>“Commerce and manufacturers gradually introduced order and good government. And with them, the liberty and security of individuals, among the inhabitants of the country, who had before lived almost in a continual state of war with their neighbours and of servile dependency upon their superiors. This, though it has been the least observed, is <em>by far the most important</em> of all their effects.” — Adam Smith, <em>The Wealth of Nations</em></p>
+<p>“Commerce and manufacturers gradually introduced order and good government. And with them, the liberty and security of individuals, among the inhabitants of the country, who had before lived almost in a continual state of war with their neighbours and of servile dependency upon their superiors. This, though it has been the least observed, is <em>by far the most important</em> of all their effects.”</p>
+<p>Adam Smith, <em>The Wealth of Nations</em></p>
 </blockquote>
 <p>I am a methodological pluralist, meaning I try to learn from sources as varied as narrative histories to laboratory experiments. I also have a general fascination with spatial evolution and an almost religious adherence to automating my workflow (hence my <a href="https://github.com/Jadamso">github.com/Jadamso</a> account and Linux OS). I’ve worked on, or am working on, several R packages. The biggest three are</p>
 <ul>
-<li><strong>STrollR</strong> — Space-Time standard errors for big-lattice data (Public)</li>
-<li><strong>AncientR</strong> — Ancient geo-data on violence, politics, and geography (Private now, Public soon)</li>
-<li><strong>SetupGameR</strong> — Laboratory experiments with R + Shiny (Private now, Public soon)</li>
+<li><strong>STrollR</strong>: Space-Time standard errors for big-lattice data (Public)</li>
+<li><strong>AncientR</strong>: Ancient geo-data on violence, politics, and geography (Private now, Public soon)</li>
+<li><strong>SetupGameR</strong>: Laboratory experiments with R + Shiny (Private now, Public soon)</li>
 </ul>
 <p>In addition to my main research questions, I am generally interested in Archeology, Anthropology, Urbanization, Game Theory, Computing, Geographic Information Systems, Spatial Statistics, Data Visualization, Epistemology, and History of Thought.</p>
-<p>Since graduate school, I’ve grown to enjoy writing. (Including a little poem below, which I guess is a sign I’ve read too much McCloskey if I did not make a haiku about the pigeon-hole principle as an undergraduate.) Over the last several years, I’ve also enjoyed learning about Leipzig: previously a major European city at the confluence of both the major European East–West and North–South trade routes, and making a comeback from DDR times. Now I am looking forward to exploring the Rocky Mountains with my family in Kamloops.</p>
+<!--
+Since graduate school, I've grown to enjoy writing. (Including a little poem
+below, which I guess is a sign I've read too much McCloskey if I did not make
+a haiku about the pigeon-hole principle as an undergraduate.) Over the last
+several years, I've also enjoyed learning about Leipzig: previously a major
+European city at the confluence of both the major European East–West and
+North–South trade routes, and making a comeback from DDR times. Now I am
+looking forward to exploring the Rocky Mountains with my family in Kamloops.
+-->
 <!--
 ### The Little Poem of the Applied Econometrician
 
@@ -236,6 +404,19 @@ ChatGPT version (which is better?):
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {

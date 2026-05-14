@@ -3,6 +3,13 @@
   font-weight: 600;
 }
 
+/* Hide the per-page title block site-wide. The navbar brand carries the
+   identity, page content carries the topic, and the browser tab still
+   shows the page title from <title>. */
+#title-block-header {
+  display: none;
+}
+
 main a {
   text-decoration: none;
 }
