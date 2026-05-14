@@ -5,14 +5,16 @@ title: "Jordan Adamson"
 :::: {.columns}
 
 ::: {.column width="55%"}
-I study conflict and trade, with a particular interest in their spatial
-dimensions. My main areas of expertise are
+I study conflict and trade, with a particular interest in their spatial dimensions.
+My main areas of expertise are
 
 - Experimental Economic Geography
 - Observational Studies of Conflict
 - Applied Economic Theory
 
 My research combines formal theory, historical data, and laboratory experiments.
+My teaching focuses on econometrics at Thompson Rivers University.
+
 :::
 
 ::: {.column width="5%"}
