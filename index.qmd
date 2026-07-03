@@ -27,7 +27,7 @@ My teaching focuses on econometrics at Thompson Rivers University.
 ::::
 
 <p><a href="assets/CV_Adamson.pdf" class="btn btn-primary" role="button" download>
-<i class="bi bi-file-earmark-pdf"></i>&nbsp;Download CV (PDF)
+<i class="bi bi-file-earmark-pdf"></i>&nbsp;Download CV
 </a></p>
 
 <object data="assets/CV_Adamson.pdf#pagemode=none" type="application/pdf" width="100%" height="900px">

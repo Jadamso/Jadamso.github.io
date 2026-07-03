@@ -7,6 +7,18 @@ Methodologically, I combine observational studies, economic theory, and laborato
 
 ## Publications
 
+::: {.callout-note collapse="true" icon=false title="The endogenous nature of war and its economic consequences"}
+w/ Dan Stephenson. [SSRN 4869123](https://ssrn.com/abstract=4869123).
+*[Just Accepted at European Economic Review].*
+
+Is war good for economic development?
+Several macrohistorical theories suggest "yes," yet the supporting evidence relies on war being an exogenous shock.
+We first examine the raw data from Europe, showing a negative relationship between war and production in both ancient and modern periods.
+We then create a model to investigate what typical statistical analyses show on data generated with standard conflict mechanisms.
+We show that typical statistical analyses suggest war positively affects growth in our model economy when it is in fact harmful.
+We caution against "mostly harmless" regressions that suggest European prosperity comes from its harmful history rather than its peaceful present.
+:::
+
 ::: {.callout-note collapse="true" icon=false title="Trade and the rise of ancient Greek city-states (2025)"}
 *Journal of Economic Behavior & Organization* 235, 107035.
 [10.1016/j.jebo.2025.107035](https://doi.org/10.1016/j.jebo.2025.107035)
@@ -103,7 +115,7 @@ I find the most fatalities in areas with many small countries, but that violence
 These findings suggest an important difference between the observed average effect of concentration on violence and the expected marginal effects of further concentration.
 :::
 
-## Working papers <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3161927" aria-label="View on SSRN"><i class="bi bi-file-earmark-text" style="font-size: 0.7em;"></i></a>
+## Working papers
 
 ::: {.callout-note collapse="true" icon=false title="An econometric model of ethnic maps and evaluation of the endogenous areal unit problem"}
 [SSRN 4091833](https://ssrn.com/abstract=4091833).
@@ -117,17 +129,6 @@ I also identify a distinct problem when the same variables determine both confli
 Provisional recommendations are also provided for researchers who use ethnic maps in regression analysis.
 :::
 
-::: {.callout-note collapse="true" icon=false title="The endogenous nature of war and its economic consequences"}
-w/ Dan Stephenson. [SSRN 4869123](https://ssrn.com/abstract=4869123).
-*[Revisions Requested at European Economic Review].*
-
-Is war good for economic development?
-Several macrohistorical theories suggest "yes," yet the supporting evidence relies on war being an exogenous shock.
-We first examine the raw data from Europe, showing a negative relationship between war and production in both ancient and modern periods.
-We then create a model to investigate what typical statistical analyses show on data generated with standard conflict mechanisms.
-We show that typical statistical analyses suggest war positively affects growth in our model economy when it is in fact harmful.
-We caution against "mostly harmless" regressions that suggest European prosperity comes from its harmful history rather than its peaceful present.
-:::
 
 ::: {.callout-note collapse="true" icon=false title="A practical public goods mechanism and policing application"}
 w/ Lucas Rentschler. [SSRN 4804107](https://ssrn.com/abstract=4804107).
