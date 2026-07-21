@@ -4,6 +4,10 @@ Source for <https://jadamso.github.io>.
 
 Built with [Quarto](https://quarto.org).
 
+## Local Update
+
+"My CV has been updated with a new publication/course. Copy the new CV here and update my research/teaching page."
+
 ## Local preview
 
 ```bash

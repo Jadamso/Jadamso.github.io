@@ -7,9 +7,9 @@ Methodologically, I combine observational studies, economic theory, and laborato
 
 ## Publications
 
-::: {.callout-note collapse="true" icon=false title="The endogenous nature of war and its economic consequences"}
-w/ Dan Stephenson. [SSRN 4869123](https://ssrn.com/abstract=4869123).
-*[Just Accepted at European Economic Review].*
+::: {.callout-note collapse="true" icon=false title="The endogenous nature of war and its economic consequences (2026)"}
+w/ Dan Stephenson. *European Economic Review* 189, 105430.
+[10.1016/j.euroecorev.2026.105430](https://doi.org/10.1016/j.euroecorev.2026.105430)
 
 Is war good for economic development?
 Several macrohistorical theories suggest "yes," yet the supporting evidence relies on war being an exogenous shock.
@@ -130,7 +130,7 @@ Provisional recommendations are also provided for researchers who use ethnic map
 :::
 
 
-::: {.callout-note collapse="true" icon=false title="A practical public goods mechanism and policing application"}
+::: {.callout-note collapse="true" icon=false title="A practical public good mechanism and policing application"}
 w/ Lucas Rentschler. [SSRN 4804107](https://ssrn.com/abstract=4804107).
 
 We propose a modified Groves–Ledyard (1977) mechanism that estimates the demand for public goods using population samples and selects an approximately optimal quantity.
@@ -148,7 +148,7 @@ The model generates battle maps and distance relationships that qualitatively ma
 Still, fitting a simple version of the model to data provides remarkable out-of-sample performance.
 :::
 
-::: {.callout-note collapse="true" icon=false title="Homicide and economic development in England in the long run"}
+::: {.callout-note collapse="true" icon=false title="Homicide and economic development in England over the long run"}
 w/ Frank Simmen. [SSRN 5100513](https://ssrn.com/abstract=5100513).
 
 We conduct a comprehensive analysis on the long-run relationship between homicide and economic development.
@@ -167,6 +167,16 @@ Based on these observed patterns, we develop an economic model where civilians c
 Finally, we conduct a laboratory experiment that tests these theoretical predictions in a controlled environment.
 :::
 
+::: {.callout-note collapse="true" icon=false title="Range wars and their resolution: a spatial model with experimental evidence"}
+w/ Bart J. Wilson. [SSRN 6403059](https://ssrn.com/abstract=6403059).
+
+We develop a spatial model of range conflict in which resource concentration determines territorial overlap in equilibrium.
+We test its comparative statics and compare two resolution mechanisms, self-coordination and decentralized exchange, in a laboratory experiment.
+As predicted, greater resource concentration increases overlap, while larger groups reduce it.
+Decentralized exchange substantially reduces conflict relative to self-coordination across all resource environments and group sizes, though many groups fail to fully resolve disputes even when able to communicate and transfer money.
+These findings illuminate the economic origins of territorial conflict and establish decentralized exchange as a promising, if imperfect, tool for pre-conflict resolution.
+:::
+
 ## Work in progress <a href="mailto:jadamson@tru.ca?subject=Work%20in%20progress" aria-label="Request copies by email"><i class="bi bi-envelope" style="font-size: 0.7em;"></i></a>
 
 ::: {.callout-note collapse="true" icon=false title="A nonparametric investigation of war and agglomeration"}
@@ -176,4 +186,13 @@ Applying this method to data from Modern Europe and the Ancient Mediterranean, I
 The first two patterns suggest that war happens where people are, broadly, and that war near cities either pushes people inwards or results from larger cities exerting more force in their periphery.
 The last general pattern suggests that either war impacts urban patterns less directly than intrinsic forces or that war is strategically dispersed.
 By uncovering these spatial patterns, I provide new insights into the complex and underexplored dynamics between conflict and urban development.
+:::
+
+::: {.callout-note collapse="true" icon=false title="Introducing a medianized public-goods market with evidence from both lab and field"}
+w/ Lucas Rentschler.
+
+We introduce a medianized Groves–Ledyard mechanism, which uses cost kinks and notches to tie each participant's marginal price to the group median rather than the mean.
+This blunts the influence of outliers, gives each participant a price that is easy to reason about, and relies on transfers rather than penalties.
+We also run the mechanism on a random sample of the population instead of the whole of it, so that a few hundred participants can decide for a population orders of magnitude larger.
+We then test the mechanism against alternatives in a laboratory experiment, where the social optimum is known, and in a field experiment where a sample of residents helps set the provision of a real public good for a city of more than 100,000.
 :::

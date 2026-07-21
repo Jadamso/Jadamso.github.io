@@ -18,8 +18,9 @@ My full teaching record is below.
 
 | Course | Level | Institution | Term |
 |---|---|---|---|
-| Business and Economic Statistics II | BA | Thompson Rivers U. | Winter 2026, Fall 2026 |
-| Business and Economic Statistics I | BA | Thompson Rivers U. | Fall 2025/2026, Winter 2026 |
+| Econometrics | BA | Thompson Rivers U. | Winter 2027 |
+| Business and Economic Statistics II | BA | Thompson Rivers U. | Winter 2026/2027, Fall 2026/2027 |
+| Business and Economic Statistics I | BA | Thompson Rivers U. | Fall 2025/2026/2027, Winter 2026 |
 | Microeconometrics | MA | Leipzig U. | Summer 2021–2025 |
 | Spatial Econometrics | MA | Leipzig U. | Winter 2021–2024 |
 | Applied Econometrics (Labs) | BA | Leipzig U. | Winter 2020–2024 |
