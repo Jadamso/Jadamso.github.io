@@ -18,7 +18,7 @@ quarto render       # one-shot build to _site/
 ## Publish to GitHub Pages
 
 ```bash
-git add -A && git commit -m "update site"
+git add -u && git commit -m "update site"
 git push
 quarto publish gh-pages --no-browser
 ```

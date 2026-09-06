@@ -27,6 +27,8 @@ I examine the role of comparative advantage in the rise of city-states.
 After compiling a new dataset on ancient Greece and the natural environment, I provide evidence that the spatial covariance of natural vegetation endowments amongst potential trading partners is important for explaining the development of silver coin money, battles, and city-state formation.
 I also provide statistical evidence against "key factors" previously emphasized.
 These findings are consistent with a general model of comparative advantage that I develop, which clarifies how the spatial covariance of factor endowments affects multiple development outcomes.
+
+**Media:** [GreekReporter](https://greekreporter.com/2026/05/21/what-made-ancient-greek-city-states-thrive/); La Brújula Verde ([English](https://www.labrujulaverde.com/en/2025/06/the-origin-of-ancient-greek-city-states-rewritten/); [Spanish](https://www.labrujulaverde.com/2025/06/reescriben-el-origen-de-las-ciudades-estado-de-la-antigua-grecia)); [TA NEA (Greek)](https://www.tanea.gr/2025/06/16/science-technology/arxaia-ellada-nea-theoria-anatrepei-osa-kserame-gia-tis-poleis-krati/); [enikos.gr (Greek)](https://www.enikos.gr/timeout/nea-meleti-ypostirizei-mia-diaforetiki-theoria-gia-to-pos-dimiourgithike-i-poli-kratos-stin-archaia-ellada/2382832/); [The Archaeologist](https://www.thearchaeologist.org/blog/new-study-proposes-a-different-theory-on-the-rise-of-the-city-state-in-ancient-greece); [Stilearte (Italian)](https://www.stilearte.it/archeologia-il-commercio-ha-creato-le-citta-stato-greche-scopri-perche-696-polis-monete-e-battaglie-riscrivono-la-storia/); [Poisk (Russian)](https://poisknews.ru/arheologiya/chem-obuslovlen-uspeh-novaya-rabota-raskryvaet-prichiny-proczvetaniya-drevnegrecheskih-gorodov-gosudarstv/); [National Affairs (research roundup)](https://www.nationalaffairs.com/blog/detail/findings-a-daily-roundup/ancient-treasures); [The Ancient Near East Today (news roundup)](https://ancientneareasttoday.substack.com/p/ane-today-12-june-2025); rogueclassicism ([3 June 2025](https://rogueclassicism.com/2025/06/03/rogueclassicists-bulletin-june-3-2025/); [9 June 2025](https://rogueclassicism.com/2025/06/09/rogueclassicists-bulletin-june-9-2025/); [22 May 2026](https://rogueclassicism.com/2026/05/22/rc-bulletin-may-22-2026/)); [Αρχαία Ελληνικά (Greek translation)](https://arxaia-ellinika.blogspot.com/2025/06/ereuna-arxaies-ellinikes-polis-krati.html); [Παρλάπιπας (Greek repost)](https://www.oparlapipas.gr/2025/06/m-k.html); [Φιλολογική Γωνιά (Greek repost)](https://apostolos1963.blogspot.com/2025/06/blog-post.html); [Greek Reporter Russia (Russian repost)](https://www.greekreporterrussia.com/2025/06/26/ученые-переписывают-происхождение-д/); [Boraeinai (Greek)](https://boraeinai.blogspot.com/2025/08/blog-post_29.html); [SPQR (Medium preview)](https://medium.com/@ancient.rome/how-greek-city-states-emerged-a-new-hypothesis-from-researchers-7ddac697bf40)
 :::
 
 ::: {.callout-note collapse="true" icon=false title="Peace and its correlates in the ancient world (2025)"}
@@ -38,6 +40,8 @@ We provide the first in-depth statistical summary of war in this period, examini
 Then we evaluate two main explanations for international peace: democracy and hegemony, using both statistical analyses and case study comparisons.
 We find no democratic peace among Ancient Greek city-states and mixed results, both inside and outside of Greece, about how war relates to state power.
 Broadly, our results challenge prominent political theories of peace and suggest more exploration of alternatives.
+
+**Media:** [National Affairs (research roundup)](https://nationalaffairs.com/blog/detail/findings-a-daily-roundup/familiar-millennia); [Wikipedia (reference)](https://en.wikipedia.org/wiki/Democratic_peace_theory#Historical_periods)
 :::
 
 ::: {.callout-note collapse="true" icon=false title="How policing incentives affect crime, measurement, and justice (2024)"}
@@ -49,6 +53,8 @@ We derive a truth table for the equilibrium numbers of criminals and producers, 
 To test the model, we conduct an experiment that varies how severely an officer is reprimanded for false punishments.
 We find that stronger reprimands do not change crime, increase civilian incomes, and decrease false positives.
 We also find that the clearance rate, a measure of performance used widely in econometric studies, suggests police performance is better when it is unambiguously worse.
+
+**Media:** [National Affairs (research roundup)](https://nationalaffairs.com/blog/detail/findings-a-daily-roundup/state-of-crime); [Center for Growth and Opportunity (research summary)](https://www.thecgo.org/research/how-policing-incentives-affect-crime-measurement-and-justice/)
 :::
 
 ::: {.callout-note collapse="true" icon=false title="Territory in the State of Nature (2024)"}
@@ -102,6 +108,8 @@ The model developed here predicts that larger coalitions are less likely to figh
 That prediction is tested by investigating how Rome's transition from Republic to Empire affected military patterns.
 The raw data and three empirical tests suggest that the Republic engaged in more battles overall and that Republican battles had more of a public goods component.
 This study furthers our empirical knowledge about the ancient world while bringing data to bear on contemporary debates about the causes of peace and war.
+
+**Media:** [Pacific Lutheran University (research feature)](https://www.plu.edu/news/archive/2015/06/18/economicsdegrees/); [WOBEC (Polish translation)](https://miesiecznik-wobec.pl/instytucje-polityczne-zasoby-i-wojna-teoria-i-dowody-ze-starozytnego-rzymu-jordan-adamson/)
 :::
 
 ::: {.callout-note collapse="true" icon=false title="The scope of political jurisdictions and violence: theory and evidence from Africa (2019)"}
