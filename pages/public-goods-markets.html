@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="How public-goods markets work, what our experiments show, and how they might help communities choose shared services.">
 
-<title>Teaching – Jordan Adamson</title>
+<title>Public-goods markets – Jordan Adamson</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -76,13 +77,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../assets/styles.css">
-<meta property="og:title" content="Teaching – Jordan Adamson">
-<meta property="og:description" content="Assistant Professor of Economics at Thompson Rivers University. I research conflict and trade, with a particular interest in their spatial dimensions.">
+<meta property="og:title" content="Public-goods markets – Jordan Adamson">
+<meta property="og:description" content="How public-goods markets work, what our experiments show, and how they might help communities choose shared services.">
 <meta property="og:image" content="https://jadamso.github.io/pages/assets/images/2025_virginiatech.jpg">
 <meta property="og:site_name" content="Jordan Adamson">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -108,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../pages/teaching.html" aria-current="page"> 
+    <a class="nav-link" href="../pages/teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
@@ -152,9 +153,25 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#public-goods-markets" id="toc-public-goods-markets" class="nav-link active" data-scroll-target="#public-goods-markets">Public-goods markets</a>
+  <ul class="collapse">
+  <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How it works</a></li>
+  <li><a href="#from-mechanism-design-to-public-goods" id="toc-from-mechanism-design-to-public-goods" class="nav-link" data-scroll-target="#from-mechanism-design-to-public-goods">From mechanism design to public goods</a></li>
+  <li><a href="#possible-applications" id="toc-possible-applications" class="nav-link" data-scroll-target="#possible-applications">Possible applications</a></li>
+  <li><a href="#the-research" id="toc-the-research" class="nav-link" data-scroll-target="#the-research">The research</a></li>
+  <li><a href="#what-remains-to-be-learned" id="toc-what-remains-to-be-learned" class="nav-link" data-scroll-target="#what-remains-to-be-learned">What remains to be learned</a></li>
+  <li><a href="#discuss-an-application" id="toc-discuss-an-application" class="nav-link" data-scroll-target="#discuss-an-application">Discuss an application</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Teaching</h1></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Public-goods markets</h1></header>
 
 <header id="title-block-header">
 
@@ -162,109 +179,136 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Currently, I teach introductory courses on econometrics. Students in this sequence gain a better understanding of basic statistical concepts, learn to incorporate economic theory into model development and interpretation, and become proficient with the latest programming tools for the labor market. My online textbook <a href="https://jadamso.github.io/Rbooks/">Rbooks</a> is integrated with Business and Economic Statistics I + II: each chapter maps to a lecture and lab assignment.</p>
-<p>Broadly, I advocate a unified approach to econometrics for three reasons. First, results are less likely to be spurious when disparate data analyses point in the same direction (the principle of consilience, popularized by E. O. Wilson). Second, the exchange of ideas and results across domains is what makes specialization advantageous. Third, diverse methods, rather than recipes, make it easier to follow the notion that “Far better an approximate answer to the right question, which is often vague, than an exact answer to the wrong question, which can always be made precise” (J. Tukey).</p>
-<p>Previously, I have also developed and taught two intermediate econometrics courses for micro spatial data. My full teaching record is below.</p>
-<section id="courses-taught" class="level2">
-<h2 class="anchored" data-anchor-id="courses-taught">Courses taught</h2>
+<section id="public-goods-markets" class="level1">
+<h1>Public-goods markets</h1>
+<p>How much of a shared service should a community provide, and who should pay for it? People may agree that cybersecurity, public safety, or well-maintained parks are valuable while disagreeing about how much to spend on them. A public-goods market connects people’s choices about a shared service to what they pay, giving them a reason to weigh its benefits against its costs.</p>
+<p>My research with Lucas Rentschler develops these mechanisms and tests how they work. A proposed project with Fabian Wendt and Lucas Rentschler asks how they compare with political alternatives on basic needs, fairness, and fraternity.</p>
+<section id="how-it-works" class="level2">
+<h2 class="anchored" data-anchor-id="how-it-works">How it works</h2>
+<p>Public goods benefit people who need not contribute directly to their provision. This creates a free-rider problem: someone may prefer to let others pay even when they value the good themselves. Economists have developed cost-sharing rules that encourage choices closer to what is good for the whole community. Our work adapts these rules so that a small sample of people can choose for a much larger population.</p>
+<p>In our proposed applications, the process has four parts:</p>
+<ol type="1">
+<li><strong>Define the decision.</strong> The organization identifies a service, a baseline level, and a feasible range of additional provision.</li>
+<li><strong>Select participants.</strong> A random sample takes part, so the process does not require everyone in the community to attend.</li>
+<li><strong>Make choices with financial consequences.</strong> Participants choose how much to add while an interface shows their costs and the total provision. Their costs depend on their choices and those of the other participants.</li>
+<li><strong>Provide the service and settle the bill.</strong> The organization delivers the chosen level, with any remaining costs covered by the agreed budget or tax rule.</li>
+</ol>
+<p>The university or local government can continue to supply the service. The market helps determine how much it should supply. The rules for sharing the bill matter as much as the rule for choosing the quantity.</p>
+</section>
+<section id="from-mechanism-design-to-public-goods" class="level2">
+<h2 class="anchored" data-anchor-id="from-mechanism-design-to-public-goods">From mechanism design to public goods</h2>
+<p>Mechanism design starts with a problem and asks which rules would help people solve it. Economists have helped design <a href="https://docs.fcc.gov/public/attachments/DOC-313242A1.pdf">spectrum auctions</a> for allocating rights to radio frequencies and <a href="https://www.nobelprize.org/uploads/2018/06/roth-lecture.pdf">kidney-exchange systems</a> that connect patients with compatible donors when their own willing donors cannot donate to them. These applications show how research on decision rules can become part of institutions people use. Public-goods markets extend this approach to decisions about shared services, with their own practical and ethical questions to address.</p>
+</section>
+<section id="possible-applications" class="level2">
+<h2 class="anchored" data-anchor-id="possible-applications">Possible applications</h2>
+<p>One proposed application at Thompson Rivers University would let faculty and students help choose the frequency of phishing-awareness simulations. Participants would make choices within a range set by the university, and Information Technology Services would deliver the selected level using its existing training system. The question is how much training the community wants when its members face the consequences of their choices.</p>
+<p>Related possibilities include the frequency of park maintenance, the extent of a trail improvement, or the level of a shared security service. Each application needs a clearly defined decision, an organization able to carry it out, and an agreed way to fund it. These are proposed applications, with their practical and ethical questions still to be tested.</p>
+</section>
+<section id="the-research" class="level2">
+<h2 class="anchored" data-anchor-id="the-research">The research</h2>
+<p>The three projects address successive questions about practical design, ease of use, and moral evaluation.</p>
+<section id="can-a-small-sample-choose-for-a-larger-population" class="level3">
+<h3 class="anchored" data-anchor-id="can-a-small-sample-choose-for-a-larger-population">Can a small sample choose for a larger population?</h3>
+<p>Our first paper modifies the Groves-Ledyard mechanism to use a random sample, limit individual choices, and account for costs borne by people outside the sample. In a laboratory experiment with a generic good, the modified mechanism provides quantities close to the level that maximizes total earnings. It also produces less variable outcomes than the original mechanism. In a second experiment, participants choose police provision in a virtual environment. The modified mechanism produces quantities similar to the original while requiring fewer than half as many people to participate.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled" title="A practical public good mechanism and policing application">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>A practical public good mechanism and policing application
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>A practical public good mechanism and policing application.</strong> 2026 version, with Lucas Rentschler. <em>SSRN Working Paper</em>. <a href="https://ssrn.com/abstract=4804107">Read the paper</a>.</p>
+<p>The generic-good experiment lets us compare provision with a known optimum because we specify how the good affects participants’ earnings. The virtual policing experiment compares the modified and original mechanisms in a setting where preferences are not known. That comparison provides evidence about performance in a more complex laboratory setting; it does not establish an optimal level of policing for an actual community.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="can-the-mechanism-be-easier-to-use" class="level3">
+<h3 class="anchored" data-anchor-id="can-the-mechanism-be-easier-to-use">Can the mechanism be easier to use?</h3>
+<p>Our second paper develops a medianized public-goods market. Its cost rule uses the middle participant choice as a reference, limiting the influence of extreme choices and simplifying the prices participants face. The paper develops the mechanism’s theoretical properties and compares its design with the earlier mechanism and Quadratic Funding. The current draft does not yet report laboratory or field results.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled" title="Introducing a medianized public-goods market with evidence from both lab and field">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Introducing a medianized public-goods market with evidence from both lab and field
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Introducing a medianized public-goods market with evidence from both lab and field.</strong> 2026, with Lucas Rentschler. <em>Work in progress</em>. <a href="mailto:jadamson@tru.ca?subject=Medianized%20public-goods%20market">Request a draft</a>.</p>
+<p>The mechanism retains population sampling and changes the cost rule participants face. The empirical comparison asks how these changes affect choices and provision, including how the mechanism performs against alternatives.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="how-does-it-compare-morally-with-political-alternatives" class="level3">
+<h3 class="anchored" data-anchor-id="how-does-it-compare-morally-with-political-alternatives">How does it compare morally with political alternatives?</h3>
+<p>An efficient level of provision does not settle how the costs should be shared or how people should participate. Our proposed project compares a public-goods market, deliberation followed by majority rule, and a decision by a member selected through a competence test. We will examine three concerns:</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
+<col style="width: 50%">
+<col style="width: 50%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Course</th>
-<th>Level</th>
-<th>Institution</th>
-<th>Term</th>
+<th>Concern</th>
+<th>What we will examine</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Econometrics</td>
-<td>BA</td>
-<td>Thompson Rivers U.</td>
-<td>Winter 2027</td>
+<td>Basic needs</td>
+<td>Whether provision reaches a subsistence threshold built into participants’ earnings, and whether they feel their needs were met.</td>
 </tr>
 <tr class="even">
-<td>Business and Economic Statistics II</td>
-<td>BA</td>
-<td>Thompson Rivers U.</td>
-<td>Winter 2026/2027, Fall 2026/2027</td>
+<td>Fairness</td>
+<td>How benefits and costs are distributed across people with different incomes, and how participants judge the outcomes and procedures.</td>
 </tr>
 <tr class="odd">
-<td>Business and Economic Statistics I</td>
-<td>BA</td>
-<td>Thompson Rivers U.</td>
-<td>Fall 2025/2026/2027, Winter 2026</td>
-</tr>
-<tr class="even">
-<td>Microeconometrics</td>
-<td>MA</td>
-<td>Leipzig U.</td>
-<td>Summer 2021–2025</td>
-</tr>
-<tr class="odd">
-<td>Spatial Econometrics</td>
-<td>MA</td>
-<td>Leipzig U.</td>
-<td>Winter 2021–2024</td>
-</tr>
-<tr class="even">
-<td>Applied Econometrics (Labs)</td>
-<td>BA</td>
-<td>Leipzig U.</td>
-<td>Winter 2020–2024</td>
-</tr>
-<tr class="odd">
-<td>Intro to Nonparametrics (two weeks)</td>
-<td>PhD</td>
-<td>C.G.D.E.–Halle</td>
-<td>Winter 2022, 2023</td>
-</tr>
-<tr class="even">
-<td>Econometrics Seminar</td>
-<td>BA/MA</td>
-<td>Leipzig U.</td>
-<td>Summer 2021</td>
-</tr>
-<tr class="odd">
-<td>Advanced Econometrics (Labs)</td>
-<td>MA</td>
-<td>Leipzig U.</td>
-<td>Winter 2020</td>
-</tr>
-<tr class="even">
-<td>Scientific Programming in R (Workshop)</td>
-<td>MA</td>
-<td>Utah State U.</td>
-<td>Spring 2020</td>
-</tr>
-<tr class="odd">
-<td>Principles of Macroeconomics</td>
-<td>BA</td>
-<td>Chapman U.</td>
-<td>Fall 2017, 2018</td>
-</tr>
-<tr class="even">
-<td>Principles of Macroeconomics</td>
-<td>BA</td>
-<td>Clemson U.</td>
-<td>Fall 2016, Spring 2017</td>
-</tr>
-<tr class="odd">
-<td>Computing w/ Space-time Data (Workshop)</td>
-<td>MA</td>
-<td>Clemson U.</td>
-<td>Fall 2016</td>
+<td>Fraternity</td>
+<td>Whether participants feel connected to or alienated from others, and how they communicate during the decision.</td>
 </tr>
 </tbody>
 </table>
+<div class="callout callout-style-default callout-note no-icon callout-titled" title="The morality of public-goods markets">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>The morality of public-goods markets
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>The morality of public-goods markets.</strong> Proposed research with Fabian Wendt and Lucas Rentschler.</p>
+<p>The project combines philosophical analysis with a laboratory comparison of the three procedures and a linked study of people affected by decisions they did not make. The aim is to clarify the moral trade-offs in public-goods markets and inform policymakers considering them. Any procedure may perform better on one dimension and worse on another.</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="what-remains-to-be-learned" class="level2">
+<h2 class="anchored" data-anchor-id="what-remains-to-be-learned">What remains to be learned</h2>
+<p>Results for a generic laboratory good may not carry over to real goods and institutions. Using an unnamed good helps isolate the procedure’s effects, while real payments give choices consequences. Field studies must also examine participation, understanding, the way costs are shared, and whether an organization can implement the resulting decisions.</p>
+<p>People’s judgments are part of the moral assessment, alongside the observed outcomes and the arguments for different standards of fairness. The research can identify trade-offs and questions for further testing without settling every objection to a particular application.</p>
+</section>
+<section id="discuss-an-application" class="level2">
+<h2 class="anchored" data-anchor-id="discuss-an-application">Discuss an application</h2>
+<p>I am interested in hearing from universities, municipalities, and other organizations with a shared service whose level could be chosen in this way. Useful starting points are the service to be provided, the population affected, the available range of provision, and who would pay for it.</p>
+<p><a href="mailto:jadamson@tru.ca?subject=Public-goods%20market%20application">Contact me</a> or see my <a href="../pages/research.html">research page</a>.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
