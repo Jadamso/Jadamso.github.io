@@ -33,3 +33,8 @@ main .h2 {
 .table > thead > tr > th {
   border-bottom: none;
 }
+
+/* Keep linked papers visible below the fixed navigation bar. */
+.research-paper {
+  scroll-margin-top: 6rem;
+}

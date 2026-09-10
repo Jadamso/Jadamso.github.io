@@ -1,5 +1,10 @@
 ---
 title: "Research"
+format:
+  html:
+    include-after-body:
+      text: |
+        <script src="../assets/research-links.js"></script>
 ---
 
 I research the economics of peace and prosperity, with a focus on spatial relationships.
@@ -7,7 +12,7 @@ Methodologically, I combine observational studies, economic theory, and laborato
 
 ## Publications
 
-::: {.callout-note collapse="true" icon=false title="The endogenous nature of war and its economic consequences (2026)"}
+::: {#war-economic-consequences .callout-note .research-paper collapse="true" icon=false title="The endogenous nature of war and its economic consequences (2026)"}
 w/ Dan Stephenson. *European Economic Review* 189, 105430.
 [10.1016/j.euroecorev.2026.105430](https://doi.org/10.1016/j.euroecorev.2026.105430)
 
@@ -19,7 +24,7 @@ We show that typical statistical analyses suggest war positively affects growth 
 We caution against "mostly harmless" regressions that suggest European prosperity comes from its harmful history rather than its peaceful present.
 :::
 
-::: {.callout-note collapse="true" icon=false title="Trade and the rise of ancient Greek city-states (2025)"}
+::: {#trade-greek-city-states .callout-note .research-paper collapse="true" icon=false title="Trade and the rise of ancient Greek city-states (2025)"}
 *Journal of Economic Behavior & Organization* 235, 107035.
 [10.1016/j.jebo.2025.107035](https://doi.org/10.1016/j.jebo.2025.107035)
 
@@ -28,10 +33,10 @@ After compiling a new dataset on ancient Greece and the natural environment, I p
 I also provide statistical evidence against "key factors" previously emphasized.
 These findings are consistent with a general model of comparative advantage that I develop, which clarifies how the spatial covariance of factor endowments affects multiple development outcomes.
 
-**Media:** [GreekReporter](https://greekreporter.com/2026/05/21/what-made-ancient-greek-city-states-thrive/); La Brújula Verde ([English](https://www.labrujulaverde.com/en/2025/06/the-origin-of-ancient-greek-city-states-rewritten/); [Spanish](https://www.labrujulaverde.com/2025/06/reescriben-el-origen-de-las-ciudades-estado-de-la-antigua-grecia)); [TA NEA (Greek)](https://www.tanea.gr/2025/06/16/science-technology/arxaia-ellada-nea-theoria-anatrepei-osa-kserame-gia-tis-poleis-krati/); [enikos.gr (Greek)](https://www.enikos.gr/timeout/nea-meleti-ypostirizei-mia-diaforetiki-theoria-gia-to-pos-dimiourgithike-i-poli-kratos-stin-archaia-ellada/2382832/); [The Archaeologist](https://www.thearchaeologist.org/blog/new-study-proposes-a-different-theory-on-the-rise-of-the-city-state-in-ancient-greece); [Stilearte (Italian)](https://www.stilearte.it/archeologia-il-commercio-ha-creato-le-citta-stato-greche-scopri-perche-696-polis-monete-e-battaglie-riscrivono-la-storia/); [Poisk (Russian)](https://poisknews.ru/arheologiya/chem-obuslovlen-uspeh-novaya-rabota-raskryvaet-prichiny-proczvetaniya-drevnegrecheskih-gorodov-gosudarstv/); [National Affairs (research roundup)](https://www.nationalaffairs.com/blog/detail/findings-a-daily-roundup/ancient-treasures); [The Ancient Near East Today (news roundup)](https://ancientneareasttoday.substack.com/p/ane-today-12-june-2025); rogueclassicism ([3 June 2025](https://rogueclassicism.com/2025/06/03/rogueclassicists-bulletin-june-3-2025/); [9 June 2025](https://rogueclassicism.com/2025/06/09/rogueclassicists-bulletin-june-9-2025/); [22 May 2026](https://rogueclassicism.com/2026/05/22/rc-bulletin-may-22-2026/)); [Αρχαία Ελληνικά (Greek translation)](https://arxaia-ellinika.blogspot.com/2025/06/ereuna-arxaies-ellinikes-polis-krati.html); [Παρλάπιπας (Greek repost)](https://www.oparlapipas.gr/2025/06/m-k.html); [Φιλολογική Γωνιά (Greek repost)](https://apostolos1963.blogspot.com/2025/06/blog-post.html); [Greek Reporter Russia (Russian repost)](https://www.greekreporterrussia.com/2025/06/26/ученые-переписывают-происхождение-д/); [Boraeinai (Greek)](https://boraeinai.blogspot.com/2025/08/blog-post_29.html); [SPQR (Medium preview)](https://medium.com/@ancient.rome/how-greek-city-states-emerged-a-new-hypothesis-from-researchers-7ddac697bf40)
+[**Media:**](#trade-greek-city-states) [GreekReporter](https://greekreporter.com/2026/05/21/what-made-ancient-greek-city-states-thrive/); La Brújula Verde ([English](https://www.labrujulaverde.com/en/2025/06/the-origin-of-ancient-greek-city-states-rewritten/); [Spanish](https://www.labrujulaverde.com/2025/06/reescriben-el-origen-de-las-ciudades-estado-de-la-antigua-grecia)); [TA NEA (Greek)](https://www.tanea.gr/2025/06/16/science-technology/arxaia-ellada-nea-theoria-anatrepei-osa-kserame-gia-tis-poleis-krati/); [enikos.gr (Greek)](https://www.enikos.gr/timeout/nea-meleti-ypostirizei-mia-diaforetiki-theoria-gia-to-pos-dimiourgithike-i-poli-kratos-stin-archaia-ellada/2382832/); [The Archaeologist](https://www.thearchaeologist.org/blog/new-study-proposes-a-different-theory-on-the-rise-of-the-city-state-in-ancient-greece); [Stilearte (Italian)](https://www.stilearte.it/archeologia-il-commercio-ha-creato-le-citta-stato-greche-scopri-perche-696-polis-monete-e-battaglie-riscrivono-la-storia/); [Poisk (Russian)](https://poisknews.ru/arheologiya/chem-obuslovlen-uspeh-novaya-rabota-raskryvaet-prichiny-proczvetaniya-drevnegrecheskih-gorodov-gosudarstv/); [National Affairs (research roundup)](https://www.nationalaffairs.com/blog/detail/findings-a-daily-roundup/ancient-treasures); [The Ancient Near East Today (news roundup)](https://ancientneareasttoday.substack.com/p/ane-today-12-june-2025); rogueclassicism ([3 June 2025](https://rogueclassicism.com/2025/06/03/rogueclassicists-bulletin-june-3-2025/); [9 June 2025](https://rogueclassicism.com/2025/06/09/rogueclassicists-bulletin-june-9-2025/); [22 May 2026](https://rogueclassicism.com/2026/05/22/rc-bulletin-may-22-2026/)); [Αρχαία Ελληνικά (Greek translation)](https://arxaia-ellinika.blogspot.com/2025/06/ereuna-arxaies-ellinikes-polis-krati.html); [Παρλάπιπας (Greek repost)](https://www.oparlapipas.gr/2025/06/m-k.html); [Φιλολογική Γωνιά (Greek repost)](https://apostolos1963.blogspot.com/2025/06/blog-post.html); [Greek Reporter Russia (Russian repost)](https://www.greekreporterrussia.com/2025/06/26/ученые-переписывают-происхождение-д/); [Boraeinai (Greek)](https://boraeinai.blogspot.com/2025/08/blog-post_29.html); [SPQR (Medium preview)](https://medium.com/@ancient.rome/how-greek-city-states-emerged-a-new-hypothesis-from-researchers-7ddac697bf40)
 :::
 
-::: {.callout-note collapse="true" icon=false title="Peace and its correlates in the ancient world (2025)"}
+::: {#peace-ancient-world .callout-note .research-paper collapse="true" icon=false title="Peace and its correlates in the ancient world (2025)"}
 w/ Patrick Fitzsimmons. *Journal of Economic Behavior & Organization* 234, 106997.
 [10.1016/j.jebo.2025.106997](https://doi.org/10.1016/j.jebo.2025.106997)
 
@@ -41,10 +46,10 @@ Then we evaluate two main explanations for international peace: democracy and he
 We find no democratic peace among Ancient Greek city-states and mixed results, both inside and outside of Greece, about how war relates to state power.
 Broadly, our results challenge prominent political theories of peace and suggest more exploration of alternatives.
 
-**Media:** [National Affairs (research roundup)](https://nationalaffairs.com/blog/detail/findings-a-daily-roundup/familiar-millennia); [Wikipedia (reference)](https://en.wikipedia.org/wiki/Democratic_peace_theory#Historical_periods)
+[**Media:**](#peace-ancient-world) [National Affairs (research roundup)](https://nationalaffairs.com/blog/detail/findings-a-daily-roundup/familiar-millennia); [Wikipedia (reference)](https://en.wikipedia.org/wiki/Democratic_peace_theory#Historical_periods)
 :::
 
-::: {.callout-note collapse="true" icon=false title="How policing incentives affect crime, measurement, and justice (2024)"}
+::: {#policing-incentives .callout-note .research-paper collapse="true" icon=false title="How policing incentives affect crime, measurement, and justice (2024)"}
 w/ Lucas Rentschler. *Economic Inquiry* 63(2), 545–567.
 [10.1111/ecin.13270](https://doi.org/10.1111/ecin.13270)
 
@@ -54,10 +59,10 @@ To test the model, we conduct an experiment that varies how severely an officer 
 We find that stronger reprimands do not change crime, increase civilian incomes, and decrease false positives.
 We also find that the clearance rate, a measure of performance used widely in econometric studies, suggests police performance is better when it is unambiguously worse.
 
-**Media:** [National Affairs (research roundup)](https://nationalaffairs.com/blog/detail/findings-a-daily-roundup/state-of-crime); [Center for Growth and Opportunity (research summary)](https://www.thecgo.org/research/how-policing-incentives-affect-crime-measurement-and-justice/)
+[**Media:**](#policing-incentives) [National Affairs (research roundup)](https://nationalaffairs.com/blog/detail/findings-a-daily-roundup/state-of-crime); [Center for Growth and Opportunity (research summary)](https://www.thecgo.org/research/how-policing-incentives-affect-crime-measurement-and-justice/)
 :::
 
-::: {.callout-note collapse="true" icon=false title="Territory in the State of Nature (2024)"}
+::: {#territory-state-of-nature .callout-note .research-paper collapse="true" icon=false title="Territory in the State of Nature (2024)"}
 w/ Bart J. Wilson. *Journal of Economic Behavior & Organization* 219, 490–509.
 [10.1016/j.jebo.2024.01.032](https://doi.org/10.1016/j.jebo.2024.01.032)
 
@@ -67,7 +72,7 @@ We then conduct a controlled laboratory experiment to test the predictions of ou
 Additionally, we find that equally strong appropriators select more exclusive and less overlapping ranges than what is predicted with symmetric resources, while weaker appropriators choose more engulfed ranges than what is predicted with skewed resources.
 :::
 
-::: {.callout-note collapse="true" icon=false title="Criminal justice from a public choice perspective: an introduction to the special issue (2023)"}
+::: {#criminal-justice-public-choice .callout-note .research-paper collapse="true" icon=false title="Criminal justice from a public choice perspective: an introduction to the special issue (2023)"}
 w/ Lucas Rentschler. *Public Choice* 196, 223–227.
 [10.1007/s11127-023-01089-2](https://doi.org/10.1007/s11127-023-01089-2)
 
@@ -78,7 +83,7 @@ This special issue contains a sampling of papers at the intersection of criminal
 Our introduction discusses the recent literature on criminal justice and calls for a multifaceted empirical approach that incorporates the insights of public choice theory.
 :::
 
-::: {.callout-note collapse="true" icon=false title="The supply side determinants of territory (2022)"}
+::: {#supply-side-territory .callout-note .research-paper collapse="true" icon=false title="The supply side determinants of territory (2022)"}
 w/ Erik O. Kimbrough. *Journal of Peace Research* 60(2).
 [10.1177/00223433221075006](https://doi.org/10.1177/00223433221075006)
 
@@ -88,7 +93,7 @@ We show that economies of scale in the production of violence and varying costs 
 Comparative statics analysis shows how the distribution of conflict and territory change as costs change, helping shed light on, for example, why new transportation technologies have historically led to a redrawing of territorial boundaries.
 :::
 
-::: {.callout-note collapse="true" icon=false title="Agglomeration and the extent of the market: theory and experiment on spatially coordinated exchange (2021)"}
+::: {#agglomeration-market-extent .callout-note .research-paper collapse="true" icon=false title="Agglomeration and the extent of the market: theory and experiment on spatially coordinated exchange (2021)"}
 *Journal of Economic Behavior & Organization* 190, 838–850.
 [10.1016/j.jebo.2021.08.009](https://doi.org/10.1016/j.jebo.2021.08.009)
 
@@ -99,7 +104,7 @@ Consistent with the theory, I find that individuals spontaneously coalesce to re
 I also find that agglomerations re-emerge at the same locations after shocks, being land-tied reduces agglomeration but magnifies the effect of variety, individual location choices aggregate to create a Zipf population distribution, and individuals earn more in agglomerations.
 :::
 
-::: {.callout-note collapse="true" icon=false title="Political institutions, resources, and war: theory and evidence from ancient Rome (2020)"}
+::: {#institutions-war-ancient-rome .callout-note .research-paper collapse="true" icon=false title="Political institutions, resources, and war: theory and evidence from ancient Rome (2020)"}
 *Explorations in Economic History* 76, 101324.
 [10.1016/j.eeh.2020.101324](https://doi.org/10.1016/j.eeh.2020.101324)
 
@@ -109,10 +114,10 @@ That prediction is tested by investigating how Rome's transition from Republic t
 The raw data and three empirical tests suggest that the Republic engaged in more battles overall and that Republican battles had more of a public goods component.
 This study furthers our empirical knowledge about the ancient world while bringing data to bear on contemporary debates about the causes of peace and war.
 
-**Media:** [Pacific Lutheran University (research feature)](https://www.plu.edu/news/archive/2015/06/18/economicsdegrees/); [WOBEC (Polish translation)](https://miesiecznik-wobec.pl/instytucje-polityczne-zasoby-i-wojna-teoria-i-dowody-ze-starozytnego-rzymu-jordan-adamson/)
+[**Media:**](#institutions-war-ancient-rome) [Pacific Lutheran University (research feature)](https://www.plu.edu/news/archive/2015/06/18/economicsdegrees/); [WOBEC (Polish translation)](https://miesiecznik-wobec.pl/instytucje-polityczne-zasoby-i-wojna-teoria-i-dowody-ze-starozytnego-rzymu-jordan-adamson/)
 :::
 
-::: {.callout-note collapse="true" icon=false title="The scope of political jurisdictions and violence: theory and evidence from Africa (2019)"}
+::: {#jurisdictions-violence-africa .callout-note .research-paper collapse="true" icon=false title="The scope of political jurisdictions and violence: theory and evidence from Africa (2019)"}
 *Public Choice* 186(3), 467–490.
 [10.1007/s11127-019-00763-8](https://doi.org/10.1007/s11127-019-00763-8)
 
@@ -125,7 +130,7 @@ These findings suggest an important difference between the observed average effe
 
 ## Working papers
 
-::: {.callout-note collapse="true" icon=false title="An econometric model of ethnic maps and evaluation of the endogenous areal unit problem"}
+::: {#ethnic-maps .callout-note .research-paper collapse="true" icon=false title="An econometric model of ethnic maps and evaluation of the endogenous areal unit problem"}
 [SSRN 4091833](https://ssrn.com/abstract=4091833).
 *[Revisions Requested at Oxford Bulletin of Economics and Statistics].*
 
@@ -138,7 +143,7 @@ Provisional recommendations are also provided for researchers who use ethnic map
 :::
 
 
-::: {.callout-note collapse="true" icon=false title="A practical public good mechanism and policing application"}
+::: {#public-good-mechanism .callout-note .research-paper collapse="true" icon=false title="A practical public good mechanism and policing application"}
 w/ Lucas Rentschler. [SSRN 4804107](https://ssrn.com/abstract=4804107).
 
 We propose a modified Groves–Ledyard (1977) mechanism that estimates the demand for public goods using population samples and selects an approximately optimal quantity.
@@ -147,7 +152,7 @@ Further tests in a Phase-1 experiment, where participants choose the quantity of
 Our proposed mechanism thus performs well in laboratory experiments and is practical to implement and scale in the real world.
 :::
 
-::: {.callout-note collapse="true" icon=false title="A spatial economic model of war between great powers"}
+::: {#war-great-powers .callout-note .research-paper collapse="true" icon=false title="A spatial economic model of war between great powers"}
 [SSRN 4957529](https://ssrn.com/abstract=4957529).
 
 I develop a model of the spatial extent and intensity of war motivated by new stylized facts about the major war in two different eras: the Second Punic War (218–201 BCE) and the Hundred Years War (1337–1453 CE).
@@ -156,7 +161,7 @@ The model generates battle maps and distance relationships that qualitatively ma
 Still, fitting a simple version of the model to data provides remarkable out-of-sample performance.
 :::
 
-::: {.callout-note collapse="true" icon=false title="Homicide and economic development in England over the long run"}
+::: {#homicide-development-england .callout-note .research-paper collapse="true" icon=false title="Homicide and economic development in England over the long run"}
 w/ Frank Simmen. [SSRN 5100513](https://ssrn.com/abstract=5100513).
 
 We conduct a comprehensive analysis on the long-run relationship between homicide and economic development.
@@ -165,7 +170,7 @@ We then create a model of our stylized facts, where conflict reduces productivit
 Our model predicts better than leading statistical competitors and also suggests that economic explanations are more important than previously recognized.
 :::
 
-::: {.callout-note collapse="true" icon=false title="A unified microeconomic analysis of crime-concentration: observation, theory, and experiment"}
+::: {#crime-concentration .callout-note .research-paper collapse="true" icon=false title="A unified microeconomic analysis of crime-concentration: observation, theory, and experiment"}
 w/ Warren Anderson and Lucas Rentschler. [SSRN 5381962](https://ssrn.com/abstract=5381962).
 
 What causes crime to concentrate in a small set of locations?
@@ -175,7 +180,7 @@ Based on these observed patterns, we develop an economic model where civilians c
 Finally, we conduct a laboratory experiment that tests these theoretical predictions in a controlled environment.
 :::
 
-::: {.callout-note collapse="true" icon=false title="Range wars and their resolution: a spatial model with experimental evidence"}
+::: {#range-wars .callout-note .research-paper collapse="true" icon=false title="Range wars and their resolution: a spatial model with experimental evidence"}
 w/ Bart J. Wilson. [SSRN 6403059](https://ssrn.com/abstract=6403059).
 
 We develop a spatial model of range conflict in which resource concentration determines territorial overlap in equilibrium.
@@ -187,7 +192,7 @@ These findings illuminate the economic origins of territorial conflict and estab
 
 ## Work in progress <a href="mailto:jadamson@tru.ca?subject=Work%20in%20progress" aria-label="Request copies by email"><i class="bi bi-envelope" style="font-size: 0.7em;"></i></a>
 
-::: {.callout-note collapse="true" icon=false title="A nonparametric investigation of war and agglomeration"}
+::: {#war-agglomeration .callout-note .research-paper collapse="true" icon=false title="A nonparametric investigation of war and agglomeration"}
 Is war associated with agglomeration?
 To find out, I develop a nonstationary spatial cross-correlation function (CCF) that captures spatial dependencies which vary across locations.
 Applying this method to data from Modern Europe and the Ancient Mediterranean, I uncover three general patterns: cross-correlations are globally positive, locally mixed, and weaker than the autocorrelation of population itself.
@@ -196,7 +201,7 @@ The last general pattern suggests that either war impacts urban patterns less di
 By uncovering these spatial patterns, I provide new insights into the complex and underexplored dynamics between conflict and urban development.
 :::
 
-::: {.callout-note collapse="true" icon=false title="Introducing a medianized public-goods market with evidence from both lab and field"}
+::: {#medianized-public-goods-market .callout-note .research-paper collapse="true" icon=false title="Introducing a medianized public-goods market with evidence from both lab and field"}
 w/ Lucas Rentschler.
 
 We introduce a medianized Groves–Ledyard mechanism, which uses cost kinks and notches to tie each participant's marginal price to the group median rather than the mean.

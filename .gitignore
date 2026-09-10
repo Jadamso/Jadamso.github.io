@@ -3,6 +3,7 @@
 /_site/
 /assets/*
 !/assets/styles.css
+!/assets/research-links.js
 /previews/
 /CLAUDE.md
 /ToDo.md
