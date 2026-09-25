@@ -9,12 +9,12 @@ description: "Jordan Adamson is an Assistant Professor of Economics at Thompson 
 I study conflict and trade, with a particular interest in their spatial dimensions.
 My main areas of expertise are
 
-- Experimental Economic Geography
-- Observational Studies of Conflict
-- Applied Economic Theory
+- Experimental Studies of Conflict and Public Goods
+- Observational Studies of Conflict and Trade
+- Spatial Economic Theory and Econometrics
 
-My research combines formal theory, historical data, and laboratory experiments.
-My teaching focuses on econometrics at Thompson Rivers University.
+My teaching focuses on statistics and econometrics.
+
 
 :::
 
@@ -31,11 +31,3 @@ My teaching focuses on econometrics at Thompson Rivers University.
 <i class="bi bi-file-earmark-pdf"></i>&nbsp;Download CV
 </a></p>
 
-<!--
-## Recent
-
-- **The endogenous nature of war and its economic consequences.** 2026 (w/ Dan Stephenson). *European Economic Review* 189, 105430. [Abstract](pages/research.qmd#war-economic-consequences)
-- **Public-goods markets.** With Lucas Rentschler, I am developing ways for a small sample of residents to choose how much of a shared service a community provides. [Project page](pages/public-goods-markets.qmd)
-
-See [Research](pages/research.qmd) for all publications and working papers.
--->

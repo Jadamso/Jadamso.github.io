@@ -10,6 +10,11 @@ format:
 
 I research conflict and trade, with a particular interest in their spatial dimensions.
 Methodologically, I combine observational studies, economic theory, and laboratory experiments.
+My observational studies build new datasets, often historical, to establish facts about conflict and trade across space and time.
+This includes conflict in Africa ([2019](#jurisdictions-violence-africa), [ethnic maps](#ethnic-maps)), war around the ancient Mediterranean ([2020](#institutions-war-ancient-rome), [2025](#peace-ancient-world), [2026](#war-economic-consequences), [great powers](#war-great-powers), including [trade](#trade-greek-city-states)), violence and development in Europe ([2026](#war-economic-consequences), [great powers](#war-great-powers), [homicide](#homicide-development-england)), and [riots in Detroit](#crime-concentration).
+I am also developing experimental economic geography, a research agenda that uses laboratory experiments to study how location choices shape [markets and cities](#agglomeration-market-extent), territories ([2022](#supply-side-territory), [2024](#territory-state-of-nature), [range wars](#range-wars)), and [crime concentration](#crime-concentration).
+My work on mechanism design develops ways to provide public goods like policing/defense and resolve conflict, which I test in  lab experiments for abstract goods and also [policing](#public-good-mechanism) and, later, cybersecurity and range conflicts.
+
 
 ## Publications
 
