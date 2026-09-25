@@ -1,8 +1,9 @@
 ---
 title: "About Me"
+description: "How Jordan Adamson came to research conflict and trade, with photos, academic influences, and interests."
 ---
 
-I am a Political-Geographical Economist.
+I am an economist who researches conflict and trade, with a particular interest in their spatial dimensions.
 Here is a short version of how I came to this, as well as some other miscellaneous details about me.
 
 I was born in Edmonton, Alberta, Canada and moved to the state of Washington for college when I was 18.
@@ -12,14 +13,14 @@ Pursuing this career led me to South Carolina, California, Utah, Germany, and no
 Below are some pictures of me over these years, alongside some colleagues, mentors, and friends that I've been fortunate enough to meet along the way.
 
 ::: {layout-ncol=3}
-![w/ P. Warren, Clemson 2017](../assets/images/2017_clemson_warren.jpg)
+![w/ P. Warren, Clemson 2017](../assets/images/2017_clemson_warren.jpg){fig-alt="Two people in doctoral robes smiling on a graduation stage, one holding a Clemson University diploma cover."}
 
-![w/ E. Kimbrough, B. Wilson, V. Smith, Chapman 2018](../assets/images/2018_chapman_kimbrough_wilson_smith.jpg)
+![w/ E. Kimbrough, B. Wilson, V. Smith, Chapman 2018](../assets/images/2018_chapman_kimbrough_wilson_smith.jpg){fig-alt="Four people standing side by side in a garden with palm trees behind them."}
 
-![w/ L. Rentschler, Utah State 2020](../assets/images/2020_utahstate_rentschler.jpg)
+![w/ L. Rentschler, Utah State 2020](../assets/images/2020_utahstate_rentschler.jpg){fig-alt="Two people standing outdoors in front of a landscaped garden with a small waterfall."}
 :::
 
-I have many academic inspirations, but Milton Friedman ([Greed](https://www.youtube.com/watch?v=RWsx1X8PV_A)) holds the proud title of being my favorite Youtube and sparking my initial excursion into economics.
+I have many academic inspirations, but Milton Friedman ([Greed](https://www.youtube.com/watch?v=RWsx1X8PV_A)) holds the proud title of being my favorite YouTube economist and sparking my initial excursion into economics.
 My research as a whole is probably most inspired by Thomas Schelling, evident in my specializations on conflict economics and spatial modeling.
 I am also motivated by the classics in political economy, which has led me to incorporate politics, geography, and war into my thinking, and I quote these inspirations liberally:
 
@@ -32,11 +33,6 @@ I am also motivated by the classics in political economy, which has led me to in
 I am a methodological pluralist, meaning I try to learn from sources as varied as narrative histories to laboratory experiments.
 I also have a general fascination with spatial evolution and an almost religious adherence to automating my workflow (hence my [github.com/Jadamso](https://github.com/Jadamso) account and Linux OS).
 I've worked on, or am working on, several R packages.
-The biggest three are
-
-- **STrollR**: Space-Time standard errors for big-lattice data (Public)
-- **AncientR**: Ancient geo-data on violence, politics, and geography (Private now, Public soon)
-- **SetupGameR**: Laboratory experiments with R + Shiny (Private now, Public soon)
 
 In addition to my main research questions, I am generally interested in Archeology, Anthropology, Urbanization, Game Theory, Computing, Geographic Information Systems, Spatial Statistics, Data Visualization, Epistemology, and History of Thought.
 
